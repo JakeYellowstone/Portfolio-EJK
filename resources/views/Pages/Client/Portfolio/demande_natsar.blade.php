@@ -1,16 +1,16 @@
 @extends('Templates.Client.portfolio')
 
-@section('photos') {{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/') }}
+@section('photos') {{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/') }}
 <div class="swiper-slide">
-    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/demande/1.jpg') }}" alt="">
+    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/demande/1.jpg') }}" alt="">
   </div>
 
   <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/demande/2.jpg') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/demande/2.jpg') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/demande/3.jpg') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/demande/3.jpg') }}" alt="">
     </div>
 @endsection
 

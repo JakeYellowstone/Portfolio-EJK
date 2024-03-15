@@ -2,23 +2,23 @@
 
 @section('photos')
 <div class="swiper-slide">
-    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/gestCarb/1.png') }}" alt="">
+    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/gestCarb/1.png') }}" alt="">
   </div>
 
   <div class="swiper-slide">
-    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/gestCarb/2.png') }}" alt="">
+    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/gestCarb/2.png') }}" alt="">
   </div>
 
   <div class="swiper-slide">
-    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/gestCarb/3.png') }}" alt="">
+    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/gestCarb/3.png') }}" alt="">
   </div>
   
   <div class="swiper-slide">
-    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/gestCarb/4.png') }}" alt="">
+    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/gestCarb/4.png') }}" alt="">
   </div>
   
   <div class="swiper-slide">
-    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/gestCarb/5.png') }}" alt="">
+    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/gestCarb/5.png') }}" alt="">
   </div>
 @endsection
 

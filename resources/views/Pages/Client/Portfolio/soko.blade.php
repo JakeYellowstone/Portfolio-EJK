@@ -2,31 +2,31 @@
 
 @section('photos')
 <div class="swiper-slide">
-    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-soko/1.png') }}" alt="">
+    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-soko/1.png') }}" alt="">
   </div>
 
   <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-soko/2.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-soko/2.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-soko/3.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-soko/3.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-soko/4.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-soko/4.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-soko/5.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-soko/5.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-soko/6.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-soko/6.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-soko/7.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-soko/7.png') }}" alt="">
     </div>
 @endsection
 

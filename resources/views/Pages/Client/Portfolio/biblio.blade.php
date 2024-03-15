@@ -2,67 +2,67 @@
 
 @section('photos') 
 <div class="swiper-slide">
-    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/1.png') }}" alt="">
+    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/1.png') }}" alt="">
   </div>
 
   <div class="swiper-slide">
-    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/2.png') }}" alt="">
+    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/2.png') }}" alt="">
   </div>
 
   <div class="swiper-slide">
-    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/3.png') }}" alt="">
+    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/3.png') }}" alt="">
   </div>
 
   <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/4.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/4.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/5.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/5.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/6.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/6.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/7.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/7.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/8.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/8.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/9.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/9.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/10.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/10.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/11.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/11.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/12.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/12.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/13.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/13.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/14.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/14.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/15.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/15.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/img/portfolio/biblio/16.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/img/portfolio/biblio/16.png') }}" alt="">
     </div>
 @endsection
 

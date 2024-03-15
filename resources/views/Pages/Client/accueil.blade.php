@@ -18,7 +18,7 @@
 
       <div class="row">
         <div class="col-lg-4" data-aos="fade-right">
-          <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets') }}/img/profile-img.jpg" class="img-fluid" alt="">
+          <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets') }}/img/profile-img.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Software Engineering</h3>
@@ -305,9 +305,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-soko/1.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-soko/1.png') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-soko/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-soko/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="Site Web Soko Corporation"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "SITE WEB DE SOKO CORPORATION") }}" title="Plus de détails"><i class="bx bx-link"></i></a>
             </div>
@@ -316,9 +316,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-locatec/1.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-locatec/1.png') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-locatec/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-locatec/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="Site Web de Locatec"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "SITE WEB DE LOCATEC") }}" title="Plus de détails"><i class="bx bx-link"></i></a>
             </div>
@@ -327,9 +327,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-schiba/1.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-schiba/1.png') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-schiba/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-schiba/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="Site Web de Schiba"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "SITE WEB DE SCHIBA HOLDING") }}" title="Plus de détails"><i class="bx bx-link"></i></a>
             </div>
@@ -338,9 +338,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-ses/1.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-ses/1.png') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/sw-ses/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/sw-ses/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="Site Web de Schiba Energies et services"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "SITE WEB DE SCHIBA ÉNERGIES ET SERVICES") }}" title="Plus de détails"><i class="bx bx-link"></i></a>
             </div>
@@ -349,9 +349,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/biblio/1.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/biblio/1.png') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/biblio/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/biblio/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="BiblioNet"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "APPLICATION DE GESTION D'UNE BIBLIOTHÈQUE") }}" title="Plus de détails"><i class="bx bx-link"></i></a>
             </div>
@@ -360,9 +360,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-webPNG">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/gestCarb/1.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/gestCarb/1.png') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/gestCarb/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/gestCarb/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="Natsar carburant"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "APPLICATION DE GESTION DE CARBURANT") }}" title="Plus de détails"><i class="bx bx-link"></i></a>
             </div>
@@ -371,9 +371,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/PompMob/1.jpg') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/PompMob/1.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/PompMob/1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/PompMob/1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="Pompiste"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "APPLICATION DE SERVICE DE CARBURANT") }}" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -382,9 +382,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/rqvWeb/1.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/rqvWeb/1.png') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/rqvWeb/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/rqvWeb/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="RQV WEB"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "APPLICATION RQV WEB") }}" title="Plus de détails"><i class="bx bx-link"></i></a>
             </div>
@@ -393,9 +393,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-desktop">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/rqvDesktop/1.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/rqvDesktop/1.png') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/rqvDesktop/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/rqvDesktop/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="RQV Desktop"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "APPLICATION RQV DESKTOP") }}" title="Plus de détails"><i class="bx bx-link"></i></a>
             </div>
@@ -404,9 +404,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/palmClub/1.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/palmClub/1.png') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/palmClub/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/palmClub/1.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="Palm Club Hotel"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "APPLICATION DE GESTION HOTEL") }}" title="Plus de détails"><i class="bx bx-link"></i></a>
             </div>
@@ -418,9 +418,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/food/1.jpg') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/food/1.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/food/1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/food/1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="Food"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "APPLICATION DE MENU PLAT") }}" title="Plus de détails"><i class="bx bx-link"></i></a>
             </div>
@@ -429,9 +429,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/depenses/1.jpg') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/depenses/1.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/depenses/1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/depenses/1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="Dépense Mobile"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "APPLICATION DE GESTION DE DÉPENSE") }}" title="Plus de détails"><i class="bx bx-link"></i></a>
             </div>
@@ -441,9 +441,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/demande/1.jpg') }}" class="img-fluid" alt="">
+            <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/demande/1.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/demande/1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              <a href="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/demande/1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox"
                 title="Demande Carburant"><i class="bx bx-plus"></i></a>
               <a href="{{ route('portfolio', "APPLICATION DE DEMANDE DE CARBURANT") }}" title="Plus de détails"><i class="bx bx-link"></i></a>
             </div>

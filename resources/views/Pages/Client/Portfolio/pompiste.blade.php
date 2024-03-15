@@ -2,27 +2,27 @@
 
 @section('photos')
 <div class="swiper-slide">
-    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/PompMob/1.jpg') }}" alt="">
+    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/PompMob/1.jpg') }}" alt="">
   </div>
 
   <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/PompMob/2.jpg') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/PompMob/2.jpg') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/PompMob/3.jpg') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/PompMob/3.jpg') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/PompMob/4.jpg') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/PompMob/4.jpg') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/PompMob/5.jpg') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/PompMob/5.jpg') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/PompMob/6.jpg') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/PompMob/6.jpg') }}" alt="">
     </div>
 @endsection
 

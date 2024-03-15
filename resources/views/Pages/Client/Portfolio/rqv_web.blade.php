@@ -2,15 +2,15 @@
 
 @section('photos')
 <div class="swiper-slide">
-    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/rqvWeb/1.png') }}" alt="">
+    <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/rqvWeb/1.png') }}" alt="">
   </div>
 
   <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/rqvWeb/2.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/rqvWeb/2.png') }}" alt="">
     </div>
 
     <div class="swiper-slide">
-      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/rqvWeb/3.png') }}" alt="">
+      <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/public/ClientAssets/img/portfolio/rqvWeb/3.png') }}" alt="">
     </div>
 @endsection
 
