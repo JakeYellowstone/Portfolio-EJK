@@ -33,7 +33,7 @@
             <div class="portfolio-description">
               <h2>Project Description</h2>
               <p>
-                @yield('descritpion')
+                @yield('description')
               </p>
           </div>
         </div>
