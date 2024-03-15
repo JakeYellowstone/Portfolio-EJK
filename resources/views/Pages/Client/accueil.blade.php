@@ -57,7 +57,7 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Compétences</h2>
+        <h2>Skills</h2>
         <p>My various skills have been acquired through software engineering training, and my personal research has
           strengthened and expanded these knowledge areas. Indeed, I have conducted research in psychology, a field that
           interests me greatly, as understanding others before acting is part of my values.
