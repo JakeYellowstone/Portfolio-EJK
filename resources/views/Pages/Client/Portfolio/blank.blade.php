@@ -31,3 +31,5 @@
 @section('description')
     
 @endsection
+
+{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets/img/portfolio/') }}

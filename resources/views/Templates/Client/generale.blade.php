@@ -46,7 +46,7 @@
 
       <div class="profile">
         <img src="{{ asset('https://www.sokocorp.com/Portfolio-EJK/ClientAssets') }}/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.php">Esdras Kouamé</a></h1>
+        <h1 class="text-light"><a href="{{ route('accueil') }}">Esdras Kouamé</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://www.facebook.com/esdras.kouame.148/" class="facebook" target="blank"><i class="bx bxl-facebook"></i></a>
           <a href="https://www.instagram.com/p/CU-Sl4fNj1X/?igshid=YmMyMTA2M2Y=" class="instagram" target="blank"><i class="bx bxl-instagram"></i></a>
@@ -57,17 +57,17 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="index.php#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="index.php#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About me</span></a></li>
-          <li><a href="index.php#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="index.php#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="index.php#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="{{ route('accueil') }}#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="{{ route('accueil') }}#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About me</span></a></li>
+          <li><a href="{{ route('accueil') }}#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="{{ route('accueil') }}#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="{{ route('accueil') }}#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
   </header><!-- End Header -->
 
-  @if (Route::currentNameRoute() == 'accueil')
+  @if (Route::currentRouteName() == 'accueil')
         <!-- ======= Hero Section ======= -->
         <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
             <div class="hero-container" data-aos="fade-in">
@@ -80,7 +80,7 @@
 
   <main id="main">
 
-    @if (Route::currentNameRoute() != 'accueil')
+    @if (Route::currentRouteName() != 'accueil')
         <!-- ======= Breadcrumbs ======= -->
         <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
@@ -88,7 +88,7 @@
           <div class="d-flex justify-content-between align-items-center">
             <h2>Détail Portfolio</h2>
             <ol>
-              <li><a href="index.php">Home</a></li>
+              <li><a href="{{ route('accueil') }}">Home</a></li>
               <li>Détail Portfolio</li>
             </ol>
           </div>
