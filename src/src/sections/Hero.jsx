@@ -9,6 +9,9 @@ import {Leva, useControls} from "leva"
 import { useMediaQuery } from 'react-responsive';
 import { calculateSizes } from '../constants';
 import Target from '../components/Target';
+import PythonLogo from '../components/PythonLogo';
+import Cube from '../components/Cube';
+import Ring from '../components/Ring';
 
 const Hero = () => {
 
@@ -17,12 +20,48 @@ const Hero = () => {
   const isTablet = useMediaQuery({ minWidth : 768, maxWidth : 1024 });
   
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
-
-
+  
+  {/* const x = useControls('PythonLogo', {
+    positionX : {
+      value : 2.5,
+      min : -10,
+      max : 30
+    },
+    positionY : {
+      value : 2.5,
+      min : -10,
+      max : 10
+    },
+    positionZ : {
+      value : 2.5,
+      min : -10,
+      max : 10
+    },
+    rotationX : {
+      value : 0,
+      min : -10,
+      max : 10
+    },
+    rotationY : {
+      value : 0,
+      min : -10,
+      max : 10
+    },
+    rotationZ : {
+      value : 0,
+      min : -10,
+      max : 10
+    },
+    scale : {
+      value : 1,
+      min : 0.1,
+      max : 10
+    },
+    }) */}
 
   return (
     <section className='relative min-h-screen w-full flex flex-col'>
-        <div className='w-full max-auto flex flex-col mt-20 c-space gap-3'>
+        <div className='w-full flex flex-col mt-20 px-4 sm:px-8 gap-3'>
             <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans'>
                 Bonjour, je m'appelle Esdras <span className='waving-hand'>👋</span>
             </p>
@@ -32,7 +71,7 @@ const Hero = () => {
         </div>
 
         <div className='w-full h-full absolute inset-0'>
-          {/**<Leva /> */}
+          {/* <Leva /> */} 
           <Canvas className="w-full h-full">
 
             <Suspense fallback={<CanvasLoader />} >
@@ -49,7 +88,21 @@ const Hero = () => {
             />
             
             <group>
-              <Target />
+              <Target 
+              position={sizes.targetPosition} 
+              />
+
+              <PythonLogo 
+              position={sizes.pythonLogoPosition} 
+              //position={[x.positionX, x.positionY, x.positionZ]}
+              //rotation={[x.rotationX, x.rotationY, x.rotationZ]}
+              //scale={x.scale}
+              />
+
+              <Cube position={sizes.cubePosition} />
+
+              <Ring position={sizes.ringPosition} />
+
             </group>
 
             <ambientLight intensity={1} />
