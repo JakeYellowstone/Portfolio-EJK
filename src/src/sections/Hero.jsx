@@ -13,6 +13,9 @@ import PythonLogo from '../components/PythonLogo';
 import Cube from '../components/Cube';
 import Ring from '../components/Ring';
 import HeroCamera from '../components/HeroCamera';
+import C8Logo from '../components/C8Logo';
+import KaliLogo from '../components/KaliLogo';
+import Button from '../components/Button';
 
 const Hero = () => {
 
@@ -95,18 +98,26 @@ const Hero = () => {
             
             
             <group>
+
+              <KaliLogo position={sizes.kaliPosition} />
+
+              {/*
               <Target 
               position={sizes.targetPosition} 
               />
+              */}
+              
+
 
               <PythonLogo 
               position={sizes.pythonLogoPosition} 
               //position={[x.positionX, x.positionY, x.positionZ]}
               //rotation={[x.rotationX, x.rotationY, x.rotationZ]}
               //scale={x.scale}
+
               />
 
-              <Cube position={sizes.cubePosition} />
+              <C8Logo position={sizes.cubePosition} />
 
               <Ring position={sizes.ringPosition} />
 
@@ -118,6 +129,12 @@ const Hero = () => {
 
             </Suspense>
           </Canvas> 
+        </div>
+
+        <div className='absolute bottom-7 left-0 right-0 w-full z-10 c-space'>
+                <a href="#contact" className='w-fit'>
+                  <Button name="Changeons le monde ensemble" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
+                </a>
         </div>
 
     </section>

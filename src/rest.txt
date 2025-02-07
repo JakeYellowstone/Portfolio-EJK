@@ -1,3 +1,48 @@
 <>
 </>
 https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf
+
+
+import React, { useRef } from 'react'
+import { useGLTF } from '@react-three/drei'
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
+const C8Logo = (props) => {
+  const { nodes, materials } = useGLTF('/models/c.glb')
+  const { scene } = useGLTF('/models/c.glb')
+  /*
+  const c8LogoRef = useRef();
+
+  useGSAP(() => {
+    gsap.to(c8LogoRef.current.position, {
+        y: c8LogoRef.current.position.y + 0.5,
+        duration : 1.5,
+        repeat : -1,
+        yoyo : true,
+    })
+    })
+    */
+
+  return (
+    <group {...props} dispose={null}>
+      <group scale={0.01}>
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes['C++_C++_0'].geometry}
+          material={materials.material}
+          position={[0, 0, 199.569]}
+          rotation={[-Math.PI / 2, 0, 0]}
+          scale={5}
+        >
+            <primitive object={scene} />
+        </mesh>
+      </group>
+    </group>
+  )
+}
+
+useGLTF.preload('/models/c.glb');
+
+export default C8Logo;
