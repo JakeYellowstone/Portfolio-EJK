@@ -8,6 +8,7 @@ import CanvasLoader from '../components/CanvasLoader'
 import {Leva, useControls} from "leva"
 import { useMediaQuery } from 'react-responsive';
 import { calculateSizes } from '../constants';
+import Target from '../components/Target';
 
 const Hero = () => {
 
@@ -47,9 +48,12 @@ const Hero = () => {
             scale={sizes.deskScale} 
             />
             
-            
-            <ambientLight intensity={1} />
+            <group>
+              <Target />
+            </group>
 
+            <ambientLight intensity={1} />
+ 
             <directionalLight position={[10, 10, 10]} intensity={0.5}/>
 
             </Suspense>
