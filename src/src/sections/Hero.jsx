@@ -12,6 +12,7 @@ import Target from '../components/Target';
 import PythonLogo from '../components/PythonLogo';
 import Cube from '../components/Cube';
 import Ring from '../components/Ring';
+import HeroCamera from '../components/HeroCamera';
 
 const Hero = () => {
 
@@ -77,15 +78,21 @@ const Hero = () => {
             <Suspense fallback={<CanvasLoader />} >
 
             <PerspectiveCamera makeDefault position={[0,0,20]} />
-              
-            <HackerRoom 
-            //scale={0.07} 
-            //position={[0,0,0]} 
-            //rotation={[0, 280, 0]} 
-            position={sizes.deskPosition}
-            rotation={[0,-Math.PI,0]} 
-            scale={sizes.deskScale} 
-            />
+
+            <HeroCamera isMobile={isMobile}>
+
+              <HackerRoom 
+              //scale={0.07} 
+              //position={[0,0,0]} 
+              //rotation={[0, 280, 0]} 
+              position={sizes.deskPosition}
+              rotation={[0,-Math.PI,0]} 
+              scale={sizes.deskScale} 
+              />
+
+            </HeroCamera>
+
+            
             
             <group>
               <Target 
