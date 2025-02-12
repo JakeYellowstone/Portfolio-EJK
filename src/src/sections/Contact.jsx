@@ -27,8 +27,8 @@ const Contact = () => {
     try {
 
       await emailjs.send(
-        ' service_embth4p', 
-        'template_go54kha',
+        'service_embth4p', 
+        'template_y779de5',
         {
           from_name : form.name,
           to_name : 'Esdras Jonathan',
@@ -41,6 +41,12 @@ const Contact = () => {
 
       setLoading(false); 
       alert("Votre message a bien été envoyé !");
+
+      setForm({
+        name : '',
+        email : '',
+        message : '',
+      })
       
     } catch (error) {
 
