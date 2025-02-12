@@ -6,9 +6,16 @@ const Moi = ({animationName = 'idle', ...props}) => {
   const { nodes, materials } = useGLTF('/models/animations/moi.glb')
   const group = useRef()
 
-  const {animations : attenteAnimation } = useFBX('models/animations/attente.fbx')
-  attenteAnimation[0].name = 'attente';
-  const {actions} = useAnimations([attenteAnimation[0]], group);
+  const {animations : attenteAnimation } = useFBX('models/animations/idle.fbx')
+  const {animations : saluerAnimation } = useFBX('models/animations/salute.fbx')
+  const {animations : applaudAnimation } = useFBX('models/animations/clapping.fbx')
+  const {animations : victoireAnimation } = useFBX('models/animations/victory.fbx')
+  attenteAnimation[0].name = 'idle';
+  saluerAnimation[0].name = 'salute';
+  applaudAnimation[0].name = 'clapping';
+  victoireAnimation[0].name = 'victory';
+
+  const {actions} = useAnimations([attenteAnimation[0], saluerAnimation[0], applaudAnimation[0], victoireAnimation[0]], group);
 
   useEffect(() => {
     actions[animationName].reset().fadeIn(0.5).play();
