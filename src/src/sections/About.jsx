@@ -6,6 +6,7 @@ import Button from '../components/Button';
 const About = () => {
 
     const [hasCopied, setHasCopied] = useState(false);
+    const [hasCopied1, setHasCopied1] = useState(false);
 
     const handleCopy = () => {
         navigator.clipboard.writeText('esdraskj@gmail.com');
@@ -14,6 +15,16 @@ const About = () => {
 
         setTimeout(() => {
             setHasCopied(false);
+        }, 2000)
+    }
+
+    const handleCopy1 = () => {
+        navigator.clipboard.writeText('0100548605');
+
+        setHasCopied1(true);
+
+        setTimeout(() => {
+            setHasCopied1(false);
         }, 2000)
     }
 
@@ -27,10 +38,10 @@ const About = () => {
 
                     <div>
                         <p className='grid-headtext'>
-                            Salut, je suis Esdras
+                            Bonjour, Je m'appelle Esdras Jonathan Kouamé
                         </p>
                         <p className='grid-subtext'>
-                            Avec plus de 2 ans d'expérience, j'ai utilisé ma soif de savoir et mon dynamisme pour explorer le domaine du developpement et ensuite aboutir à la cybersécurité.
+                        De base, un développeur web et mobile passionné, actuellement en Côte d'Ivoire. À 24 ans, je combine une solide expérience en développement d'applications web et mobiles avec une expertise pointue en cybersécurité et intelligence artificielle, renforcée par mon master dans ce domaine. Mon objectif est de créer des solutions numériques innovantes, sécurisées et intelligentes, tout en répondant aux besoins spécifiques de mes clients. Que vous cherchiez à développer une application, sécuriser vos systèmes ou intégrer des solutions d'IA, je suis là pour vous accompagner.
                         </p>
                     </div>
                 </div>
@@ -41,10 +52,10 @@ const About = () => {
                     <img src="/assets/grid2.png" alt="grid-2" className='w-full sm:w-[276px] h-fit object-contain' />
                     <div>
                         <p className='grid-headtext'>
-                            Tech Utilisées
+                            Technologie utilisée
                         </p>
                         <p className='grid-subtext'>
-                            J'ai performé pendant des années dans le developpement web et mobile me permettant ensuite de me spécialiser dans la cybersécurité. Plus précisemment les normes, conformité, la sécurité defensive, et le developpement sécurisé. 
+                        Je maîtrise des technologies modernes pour le développement web, mobile, la cybersécurité et l'intelligence artificielle. Mes outils incluent React et Three.js pour des interfaces dynamiques, Python pour le backend et l'IA, ainsi que Metasploit, Nessus et Wireshark pour la cybersécurité. J'utilise également TensorFlow et PyTorch pour des solutions d'IA innovantes. Mon objectif est de combiner performance, sécurité et intelligence dans chaque projet. 
                         </p>
                     </div>
                 </div>
@@ -57,10 +68,10 @@ const About = () => {
                             height={326}
                             width={326}
                             backgroundColor='rgba(0,0,0,0)'
-                            backgroundImageUrl={0.5}
+                            backgroundImageOpacity={0.5}
                             showAtmosphere
                             showGraticules
-                            globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+                            globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg"
                             bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                             /*
                             labelsData={[{
@@ -76,7 +87,7 @@ const About = () => {
                         Je travaille à distance aussi.
                     </p>
                     <p className='grid-subtext'>
-                        Je vis actuellement à Yamoussoukro, en Côte d'Ivoire. Mais pour les travaux à distance.
+                        En tant que freelance, je propose mes services en développement web, mobile, cybersécurité et intelligence artificielle, avec la possibilité de travailler à distance partout dans le monde. Grâce à une communication fluide et des outils collaboratifs modernes, je m'adapte à vos besoins et à votre fuseau horaire pour livrer des projets de qualité, où que vous soyez. Que vous soyez en Côte d'Ivoire, en Europe, en Amérique ou ailleurs, je suis prêt à collaborer avec vous pour concrétiser vos idées.
                     </p>
                     <Button name="Me Contacter" isBeam containerClass="w-full mt-10"/>
                 </div>
@@ -88,11 +99,10 @@ const About = () => {
 
                     <div>
                         <p className='grid-headtext'>
-                            Ma passion pour la cybersécurité
+                        Ma passion pour la cybersécurité
                         </p>
                         <p className='grid-subtext'>
-                            La cybersécurité ne réprésente pas juste un métier pour moi. Mais un moyen de mettre à l'épreuve mon esprit critique dans le domaine de la technologie.
-                            Un secteur qui évolue si vite, et passionnant. La cybersécurité me pousse a être à l'affut des dernière technologie et à la maitriser.
+                        La cybersécurité et l'intelligence artificielle sont au cœur de ma passion pour la technologie. Mon master en Cybersécurité et IA m'a permis d'acquérir une expertise approfondie dans la protection des systèmes et des données, ainsi que dans le développement de solutions d'IA innovantes. Je suis constamment à l'affût des dernières tendances et techniques pour garantir que les solutions que je développe soient non seulement performantes, mais aussi intelligentes et sécurisées. Pour moi, la cybersécurité et l'IA ne sont pas juste des compétences, ce sont des missions : protéger vos projets, optimiser vos processus et offrir des expériences utilisateur exceptionnelles.
                         </p>
                     </div>
                 </div>
@@ -100,11 +110,14 @@ const About = () => {
 
             <div className='xl:col-span-1 xl:row-span-2 bg-gray-900'>
                 <div className='grid-container'>
-                    <img src="assets/grid4.png" alt="grid-4" className='w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top' />
 
                     <div className='space-y-2'>
+                        <p className='grid-headtext text-center'>
+                            Me contacter
+                        </p>
                         <p className='grid-subtext text-center'>
-                            Me Contacter
+                        Apoureux de Dieu, passioné de conception, de nouvelles technologies et de l'évolution,aussi mon amour pour la lecture (prinicipalement de la poésie) et l'écriture m'a permis d'avoir une vision poétique néanmoins réaliste de la société.
+                        Ainsi que membre active de l'Eglise Vases d'Honneur Centre de la Foi Treichville le monitariat à l'Ecodim (encadrement des enfants de 3 à 5 ans) et quelque responsabilités à Bloom CDF. 
                         </p>
 
                         <div className='copy-container' onClick={handleCopy}>
@@ -112,6 +125,13 @@ const About = () => {
 
                             <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient text-white'>
                                 esdraskj@gmail.com
+                            </p>
+                        </div>
+                        <div className='copy-container' onClick={handleCopy1}>
+                            <img src={hasCopied1 ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
+
+                            <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient text-white'>
+                                0100548605
                             </p>
                         </div>
                     </div>

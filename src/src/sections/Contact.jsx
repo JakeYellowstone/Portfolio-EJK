@@ -62,7 +62,7 @@ const Contact = () => {
   return (
     <section className='c-space my-20'>
          <div className='relative min-h-screen flex items-center justify-center flex-col'>
-            <img src="/assets/terminal.png" alt="terminal background" className='absolute inset-0 min-h-screen' />
+            <img src="/assets/terminal.png" alt="terminal background" className='absolute inset-0 w-full h-full object-cover' />
             <div className='contact-container'>
                 <h3 className='head-text'> Venons échanger ! </h3>
                 <p className='text-lg text-white mt-3'>
