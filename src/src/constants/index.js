@@ -253,7 +253,7 @@ export const navLinks = [
       reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
       targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
       
-      cubePosition: isSmall ? [4, 8, 0] : isMobile ? [5, 8, 0] : isTablet ? [5, 8, 0] : [-2, 8, 0],
+      cubePosition: isSmall ? [4, 6, 0] : isMobile ? [5, 6, 0] : isTablet ? [5, 8, 0] : [-2, 6, 0],
       pythonLogoPosition: isSmall ? [3, 8, -5] : isMobile ? [5, 8, -5] : isTablet ? [5, 8, -5] : [12, 8, -5],
       ringPosition: isSmall ? [-4, 8, 0] : isMobile ? [-9, 10, 0] : isTablet ? [-10, 10, 0] : [-20, 10, 0],
       kaliPosition: isSmall ? [-1, 8, -10] : isMobile ? [-7, 8, -10] : isTablet ? [-9, 8, -10] : [-10, 8, -10],
