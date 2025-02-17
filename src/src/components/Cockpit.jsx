@@ -9,7 +9,7 @@ Title: Pioneer Default Cockpit
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Model(props) {
+const Cockpit = (props)  => {
   const { nodes, materials } = useGLTF('/pioneer_default_cockpit(1).glb')
   return (
     <group {...props} dispose={null}>
@@ -852,3 +852,5 @@ export function Model(props) {
 }
 
 useGLTF.preload('/pioneer_default_cockpit(1).glb')
+
+export default Cockpit;
