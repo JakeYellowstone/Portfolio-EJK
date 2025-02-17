@@ -52,7 +52,10 @@ const Experiences = () => {
                                         {name}
                                     </p>
                                     <p className='text-sm mb-5'>
-                                        {pos} -- {duration}
+                                        {pos}
+                                    </p>
+                                    <p className='text-sm mb-5'>
+                                        {duration}
                                     </p>
 
                                     <p className='group-hover:text-white transition ease-in-out duration-500'>

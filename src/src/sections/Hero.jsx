@@ -65,74 +65,77 @@ const Hero = () => {
 
   return (
     <section className='relative min-h-screen w-full flex flex-col'>
-        <div className='w-full flex flex-col mt-20 px-4 sm:px-8 gap-3'>
-            <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans'>
-                Bonjour, je m'appelle Esdras <span className='waving-hand'>👋</span>
-            </p>
-            <p className='hero_tag text-gray_gradient'>
-                Produit de contruction & marque
-            </p>
-        </div>
+        
+        
 
-        <div className='w-full h-full absolute inset-0'>
-          {/* <Leva /> */} 
-          <Canvas className="w-full h-full">
+        <div class="grid xl:grid-cols-3 grid-cols-1 xl:grid-rows-12 gap-4 h-screen">
 
-            <Suspense fallback={<CanvasLoader />} >
+          <div class="text-white flex flex-col justify-center p-4 xl:col-span-2 xl:row-span-12">
 
-            <PerspectiveCamera makeDefault position={[0,0,20]} />
+            <div className='w-full h-full relative inset-0'>
 
-            <HeroCamera isMobile={isMobile}>
+            <Canvas className="w-full h-full">
 
-              <HackerRoom 
-              //scale={0.07} 
-              //position={[0,0,0]} 
-              //rotation={[0, 280, 0]} 
-              position={sizes.deskPosition}
-              rotation={[0,-Math.PI,0]} 
-              scale={sizes.deskScale} 
-              />
+              <Suspense fallback={<CanvasLoader />} >
 
-            </HeroCamera>
+                <PerspectiveCamera makeDefault position={[0,0,20]} />
 
-            
-            
-            <group>
+                <HeroCamera isMobile={isMobile}>
 
-              <KaliLogo position={sizes.kaliPosition} />
+                  <HackerRoom 
+                  position={sizes.deskPosition}
+                  rotation={[0,-Math.PI,0]} 
+                  scale={sizes.deskScale} 
+                  />
 
-              {/*
-              <Target 
-              position={sizes.targetPosition} 
-              />
-              */}
-              
+                </HeroCamera>
+      
+                <group>
 
+                  <KaliLogo position={sizes.kaliPosition} />
 
-              <PythonLogo 
-              position={sizes.pythonLogoPosition} 
-              //position={[x.positionX, x.positionY, x.positionZ]}
-              //rotation={[x.rotationX, x.rotationY, x.rotationZ]}
-              //scale={x.scale}
+                  <PythonLogo position={sizes.pythonLogoPosition} />
 
-              />
+                  <C8Logo position={sizes.cubePosition} />
 
-              <C8Logo position={sizes.cubePosition} />
+                  <Ring position={sizes.ringPosition} />
 
-              <Ring position={sizes.ringPosition} />
+                </group>
 
-            </group>
-
-            <ambientLight intensity={1} />
+                <ambientLight intensity={1} />
  
-            <directionalLight position={[10, 10, 10]} intensity={0.5}/>
+                <directionalLight position={[10, 10, 10]} intensity={0.5}/>
+              </Suspense>
+            </Canvas> 
+        </div>
+      </div>
 
-            </Suspense>
-          </Canvas> 
+
+          <div class="bg-red-500 text-white flex items-center justify-center p-4 xl:row-span-10">
+            Colonne 2 - 10 lignes
+          </div>
+
+
+          <div class="bg-green-500 text-white flex items-center justify-center p-4 xl:row-span-2">
+            <a href="#about" className='py-2'>
+              <Button name="Changeons le monde ensemble" isBeam containerClass="bg-black sm:w-fit w-full sm:min-w-96" />
+            </a>
+            <a href="#about" className='py-2'>
+              <Button name="Changeons le monde ensemble" isBeam containerClass="bg-black sm:w-fit w-full sm:min-w-96" />
+            </a>
+          </div>
         </div>
 
-        <div className='absolute bottom-7 left-0 right-0 w-full z-10 c-space'>
-                <a href="#about" className='w-fit'>
+
+
+
+        
+
+        <div className='absolute bottom-7 left-0 right-0 w-full z-10 c-space flex space-x-4'>
+                <a href="#about" className='py-2'>
+                  <Button name="Changeons le monde ensemble" isBeam containerClass="bg-black sm:w-fit w-full sm:min-w-96" />
+                </a>
+                <a href="#about" className='py-2'>
                   <Button name="Changeons le monde ensemble" isBeam containerClass="bg-black sm:w-fit w-full sm:min-w-96" />
                 </a>
         </div>

@@ -10,7 +10,7 @@ import Experiences from './sections/Experiences'
 
 const App = () => {
   return (
-    <main className='w-full'>
+    <main className='w-full bg-[#717171]'>
       <Navbar />
       <Hero />
       <About />
