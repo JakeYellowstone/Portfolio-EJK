@@ -2,31 +2,9 @@ import { motion } from "framer-motion";
 import { useState, useRef } from "react";
 import Hero from '../components/Hero'
 import Globe from 'react-globe.gl'
+import { img } from "framer-motion/client";
+import Button from '../components/Button';
 
-
-
-const [hasCopied, setHasCopied] = useState(false);
-const [hasCopied1, setHasCopied1] = useState(false);
-
-const handleCopy = () => {
-        navigator.clipboard.writeText('esdraskj@gmail.com');
-
-        setHasCopied(true);
-
-        setTimeout(() => {
-            setHasCopied(false);
-        }, 2000)
-    }
-
-    const handleCopy1 = () => {
-        navigator.clipboard.writeText('0100548605');
-
-        setHasCopied1(true);
-
-        setTimeout(() => {
-            setHasCopied1(false);
-        }, 2000)
-    }
 
 const cards = [
   {
@@ -44,43 +22,59 @@ const cards = [
   {
     id: 3,
     img: <div className='rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center'>
-    <Globe 
-        height={326}
-        width={326}
-        backgroundColor='rgba(0,0,0,0)'
-        backgroundImageOpacity={0.5}
-        showAtmosphere
-        showGraticules
-        globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg"
-        bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-        /*
+    <Globe height={326} width={326} backgroundColor='rgba(0,0,0,0)' backgroundImageOpacity={0.5} showAtmosphere showGraticules globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg" bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+      
         labelsData={[{
             lat: 6.885114662187284, long: -5.2256781055492665,
             text : "Je suis ici !",
             color : 'white',
             size : 20,
         }]}
-            */
     />
 </div>,
     title: "Je travaille à distance aussi.",
-    text: "En tant que freelance, je propose mes services en développement web, mobile, cybersécurité et intelligence artificielle, avec la possibilité de travailler à distance partout dans le monde. Grâce à une communication fluide et des outils collaboratifs modernes, je m'adapte à vos besoins et à votre fuseau horaire pour livrer des projets de qualité, où que vous soyez. Que vous soyez en Côte d'Ivoire, en Europe, en Amérique ou ailleurs, je suis prêt à collaborer avec vous pour concrétiser vos idées.",
+    text: "Je propose aussi mes services en développement web, mobile, cybersécurité et intelligence artificielle, avec la possibilité de travailler à distance partout dans le monde. Grâce à une communication fluide et des outils collaboratifs modernes, je m'adapte à vos besoins et à votre fuseau horaire pour livrer des projets de qualité, où que vous soyez. Que vous soyez en Côte d'Ivoire, en Europe, en Amérique ou ailleurs, je suis prêt à collaborer avec vous pour concrétiser vos idées.",
   },
   {
     id: 4,
     img: <img src="/assets/grid3.png" alt="grid-3" className='w-full sm:h-[266px] h-fit object-contain' />,
     title: "Ma passion pour la cybersécurité",
-    text: "Amoureux de Dieu, passioné de conception, de nouvelles technologies et de l'évolution,aussi mon amour pour la lecture (prinicipalement de la poésie) et l'écriture m'a permis d'avoir une vision poétique néanmoins réaliste de la société. Ainsi que membre active de l'Eglise Vases d'Honneur Centre de la Foi Treichville le monitariat à l'Ecodim (encadrement des enfants de 3 à 5 ans) et quelque responsabilités à Bloom CDF.",
+    text: "La cybersécurité et l'intelligence artificielle sont au cœur de ma passion pour la technologie. Mon master en Cybersécurité et IA m'a permis d'acquérir une expertise approfondie dans la protection des systèmes et des données, ainsi que dans le développement de solutions d'IA innovantes. Je suis constamment à l'affût des dernières tendances et techniques pour garantir que les solutions que je développe soient non seulement performantes, mais aussi intelligentes et sécurisées. Pour moi, la cybersécurité et l'IA ne sont pas juste des compétences, ce sont des missions : protéger vos projets, optimiser vos processus et offrir des expériences utilisateur exceptionnelles.",
   },
   {
     id: 5,
-    img: "dd",
+    img: <a href="mailto:esdraskj@gmail.com" className='font-bold text-gray_gradient text-white'>
+            esdraskj@gmail.com
+        </a>,
     title: "Me contacter",
-    text: "Passionné de technologie, membre de l'Église Vases d'Honneur, disponible à : esdraskj@gmail.com",
+    text: "Amoureux de Dieu, passioné de conception, de nouvelles technologies et de l'évolution,aussi mon amour pour la lecture (prinicipalement de la poésie) et l'écriture m'a permis d'avoir une vision poétique néanmoins réaliste de la société. Ainsi que membre active de l'Eglise Vases d'Honneur Centre de la Foi Treichville le monitariat à l'Ecodim (encadrement des enfants de 3 à 5 ans) et quelque responsabilités à Bloom CDF. ",
   },
 ];
 
 export default function AnimatedCards() {
+
+      const [hasCopied, setHasCopied] = useState(false);
+      const [hasCopied1, setHasCopied1] = useState(false);
+  
+      const handleCopy = () => {
+          navigator.clipboard.writeText('esdraskj@gmail.com');
+  
+          setHasCopied(true);
+  
+          setTimeout(() => {
+              setHasCopied(false);
+          }, 2000)
+      }
+  
+      const handleCopy1 = () => {
+          navigator.clipboard.writeText('0100548605');
+  
+          setHasCopied1(true);
+  
+          setTimeout(() => {
+              setHasCopied1(false);
+          }, 2000)
+      }
   const [currentCard, setCurrentCard] = useState(0);
   const scrollContainerRef = useRef(null);
 
@@ -122,6 +116,12 @@ export default function AnimatedCards() {
             <p className="text-sm">{card.text}</p>
           </motion.div>
         ))}
+
+        <div className='absolute bottom-7 w-full z-10 c-space'>
+          <a href="#contact" className='w-fit'>
+            <Button name="Retour au cockpit" isBeam containerClass="sm:fit w-full sm:min-w-96" />
+          </a>
+        </div>
       </div>
     </section>
   );

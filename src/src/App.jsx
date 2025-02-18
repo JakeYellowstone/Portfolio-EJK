@@ -8,16 +8,16 @@ import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 import Experiences from './sections/Experiences'
 import AnimationCards from './sections/AnimationCards';
+import Button from './components/Button';
 
 const App = () => {
   return (
     <main className='w-full bg-[#717171]'>
-      <AnimationCards />
+      
+      <Projects />
       {/** 
        * 
-       <Hero />
-      <About />
-      <Projects />
+      <AnimationCards />
       <Clients />
       <Experiences />
       <Contact />
