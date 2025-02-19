@@ -12,17 +12,24 @@ import Button from './components/Button';
 
 const App = () => {
   return (
-    <main className='w-full bg-[#717171]'>
+    <main className='w-full bg-[#210f47]'>
+
+      <AnimationCards />
       
-      <Projects />
       {/** 
        * 
-      <AnimationCards />
+       <Hero />
+       <Projects />
       <Clients />
       <Experiences />
       <Contact />
       <Footer />
+      <div className='relative z-0'>
+        <Contact />
+        <StarCanvas />
+      </div>
       */}
+
     </main>
   )
 }

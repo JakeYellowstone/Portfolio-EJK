@@ -62,7 +62,7 @@ export const navLinks = [
       desc: "J’ai conçu et développé le site web de Soko Corporation, une entreprise spécialisée dans l’innovation technologique, la vente de matériels informatiques et l’intégration de solutions numériques. Réalisé avec Laravel, ce projet visait à offrir une plateforme moderne, intuitive et sécurisée, optimisée pour une navigation fluide sur tous les appareils.",
       subdesc: "J’ai mis en place un système de gestion de contenu dynamique, une base de données sécurisée et des optimisations en SEO et en performance, garantissant rapidité et visibilité sur les moteurs de recherche. Grâce à une architecture bien pensée, l’équipe de Soko Corporation peut gérer son site en toute autonomie.",
       href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-      texture: '/textures/project/project1.mp4',
+      texture: '/textures/project/11.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
         backgroundColor: '#2A1816',
