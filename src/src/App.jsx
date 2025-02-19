@@ -14,14 +14,14 @@ const App = () => {
   return (
     <main className='w-full bg-[#210f47]'>
 
-      <AnimationCards />
+      <Experiences />
       
       {/** 
        * 
-       <Hero />
        <Projects />
+       <AnimationCards />
+       <Hero />
       <Clients />
-      <Experiences />
       <Contact />
       <Footer />
       <div className='relative z-0'>

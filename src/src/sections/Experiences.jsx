@@ -5,8 +5,10 @@ import { Suspense } from 'react';
 import { AmbientLight, DirectionalLight } from 'three';
 import { OrbitControls, SpotLight} from '@react-three/drei'; 
 import CanvasLoader from '../components/CanvasLoader'
+import Academic from '../components/Academic'
 import Moi from '../components/Moi'
 import { div } from 'three/tsl';
+
 
 const Experiences = () => {
 
@@ -16,11 +18,8 @@ const Experiences = () => {
 
 
   return (
-    <section className='c-space my-20'>
+    <section className='flex min-h-screen'>
         <div className='w-full text-white text-white-600'>
-            <h3 className='head-text'>
-                Mon expérience Professionnelles
-            </h3>
 
             <div className='work-container'>
                 <div className='work-canvas'>
@@ -37,33 +36,8 @@ const Experiences = () => {
                 
 
                 <div className='work-content'>
-                    <div className='sm:py-10 py-5 sm:px-5 px-2.5'>
-                        {workExperiences.map(({id,name, pos, title, duration, animation, icon}) => (
-                            <div key={id} className='work-content_container group'  onClick={() => setAnimationName(animation.toLowerCase())} onPointerOver={() => setAnimationName(animation.toLowerCase())} onPointerOut={() => setAnimationName('idle')} >
-                                <div className='flex flex-col h-full justify-start items-center py-2'>
-                                    <div className='work-content_logo'>
-                                        <img src={icon} alt="logo" className='w-full h-full' />
-                                    </div>
-                                    <div className='work-content_bar white' />
-                                </div>
-
-                                <div className='sm:p-5 px-2.5 py-5'>
-                                    <p className='font-bold text-white text-white-800'>
-                                        {name}
-                                    </p>
-                                    <p className='text-sm mb-5'>
-                                        {pos}
-                                    </p>
-                                    <p className='text-sm mb-5'>
-                                        {duration}
-                                    </p>
-
-                                    <p className='group-hover:text-white transition ease-in-out duration-500'>
-                                        {title}
-                                    </p>
-                                </div>
-                            </div>
-                        ))}
+                    <div className='sm:py-10 py-5 h-screen overflow-auto sm:px-5 px-2.5'>
+                        <Academic />
                     </div>
                 </div>
             </div>

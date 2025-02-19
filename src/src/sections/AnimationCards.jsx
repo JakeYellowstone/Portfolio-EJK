@@ -43,9 +43,7 @@ const cards = [
   },
   {
     id: 5,
-    img: <a href="mailto:esdraskj@gmail.com" className='font-bold text-gray_gradient text-white'>
-            esdraskj@gmail.com
-        </a>,
+    img: <img src="/assets/grid4.png" alt="grid-2" className='w-full sm:h-[276px] h-fit object-contain' />,
     title: "Me contacter",
     text: "Amoureux de Dieu, passioné de conception, de nouvelles technologies et de l'évolution,aussi mon amour pour la lecture (prinicipalement de la poésie) et l'écriture m'a permis d'avoir une vision poétique néanmoins réaliste de la société. Ainsi que membre active de l'Eglise Vases d'Honneur Centre de la Foi Treichville le monitariat à l'Ecodim (encadrement des enfants de 3 à 5 ans) et quelque responsabilités à Bloom CDF. ",
   },
@@ -89,9 +87,9 @@ export default function AnimatedCards() {
   };
 
   return (
-    <section className="flex min-h-screen bg-gray-900">
+    <section className="flex min-h-screen">
       {/* Partie gauche (autre contenu) */}
-      <div className="w-2/3 flex">
+      <div className="w-2/3 justify-center flex">
         <Hero />
       </div>
 
@@ -117,11 +115,23 @@ export default function AnimatedCards() {
           </motion.div>
         ))}
 
-        <div className='absolute bottom-7 w-full z-10 c-space'>
-          <a href="#contact" className='w-fit'>
-            <Button name="Retour au cockpit" isBeam containerClass="sm:fit w-full sm:min-w-96" />
-          </a>
-        </div>
+<div className='absolute xs:bottom-10 bottom-15 w-full flex justify-center items-center'>
+        <a href='#about'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className='w-3 h-3 rounded-full bg-[#915EFF] mb-1'
+            />
+          </div>
+        </a>
+      </div>
       </div>
     </section>
   );
