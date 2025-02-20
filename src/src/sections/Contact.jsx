@@ -62,7 +62,9 @@ const Contact = () => {
 
   return (
     <section className='min-h-screen'>
-         <Contacts />
+         <div className='relative z-0'>
+          <Contacts />
+        </div>
     </section>
   )
 }

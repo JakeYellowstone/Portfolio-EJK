@@ -5,6 +5,7 @@ import About from './sections/About'
 import Projects from './sections/Projects'
 import Clients from './sections/Clients'
 import Contact from './sections/Contact'
+import StarsCanvas from './components/canvas/Stars'
 import Footer from './sections/Footer'
 import Experiences from './sections/Experiences'
 import AnimationCards from './sections/AnimationCards';
@@ -14,21 +15,22 @@ const App = () => {
   return (
     <main className='w-full bg-[#210f47]'>
 
-      <Contact />  
+      <Accueil />
       
       {/** 
        * 
-       <Experiences />
        <AnimationCards />  
+       <Experiences />
        <Projects />
+       <div className='relative z-0'>
+       <Contact />  
+       <StarsCanvas />
+       </div>
        <Hero />
       <Clients />
       <Contact />
       <Footer />
-      <div className='relative z-0'>
         <Contact />
-        <StarCanvas />
-      </div>
       */}
 
     </main>
