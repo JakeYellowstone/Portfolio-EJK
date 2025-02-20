@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
+import Contacts from '../components/Contacts'
 
 const Contact = () => {
 
@@ -60,65 +61,8 @@ const Contact = () => {
   };
 
   return (
-    <section className='c-space my-20'>
-         <div className='relative min-h-screen flex items-center justify-center flex-col'>
-            <img src="/assets/terminal.png" alt="terminal background" className='absolute inset-0 w-full h-full object-cover' />
-            <div className='contact-container'>
-                <h3 className='head-text'> Venons échanger ! </h3>
-                <p className='text-lg text-white mt-3'>
-                    Si vous souhaitez construire une nouveau site web, qui sort de l'ordinaire, et se demarque du marché. 
-                </p>
-
-                <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col space-y-7'>
-                  <label className='space-y-3'>
-                    <span className='field-label'>
-                      Nom et prénoms
-                    </span>
-                    <input 
-                      type="text"
-                      name='name'
-                      value={form.name}
-                      onChange={handleChange}
-                      required
-                      className='field-input mt-2'
-                      placeholder='Remplissez ici' 
-                    />
-                  </label>
-                  <label className='space-y-3'>
-                    <span className='field-label'>
-                      Votre Email
-                    </span>
-                    <input 
-                      type="email"
-                      name='email'
-                      value={form.email}
-                      onChange={handleChange}
-                      required
-                      className='field-input mt-2'
-                      placeholder='Votre email' 
-                    />
-                  </label>
-                  <label className='space-y-3'>
-                    <span className='field-label'>
-                      Votre message
-                    </span>
-                    <textarea 
-                      name='message'
-                      value={form.message}
-                      onChange={handleChange}
-                      required
-                      rows={5}
-                      className='field-input mt-2'
-                      placeholder="J'ai un travail pour vous..." 
-                    />
-                  </label>
-
-                  <button className='field-btn' type='submit' disabled={loading}>
-                    {loading ? 'Envoi en cours...' : "Envoyez message"}
-                  </button>
-                </form>
-            </div>
-         </div>
+    <section className='min-h-screen'>
+         <Contacts />
     </section>
   )
 }
