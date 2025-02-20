@@ -58,18 +58,15 @@ const ExperienceCard = ({ experience }) => {
 
 const Academic = () => {
   return (
-    <>
+    <div className="flex flex-col w-full max-w-full overflow-hidden">
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+          Mon Expérience Professionnelle
         </h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col'>
-        <VerticalTimeline>
+      <div className='flex flex-col items-center'>
+        <VerticalTimeline className="w-full max-w-3xl mx-auto">
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
@@ -78,7 +75,7 @@ const Academic = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+    </div>
   );
 };
 

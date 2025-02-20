@@ -18,8 +18,8 @@ const App = () => {
       
       {/** 
        * 
+       <AnimationCards />  
        <Projects />
-       <AnimationCards />
        <Hero />
       <Clients />
       <Contact />

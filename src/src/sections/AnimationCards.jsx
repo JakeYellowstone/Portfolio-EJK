@@ -51,28 +51,6 @@ const cards = [
 
 export default function AnimatedCards() {
 
-      const [hasCopied, setHasCopied] = useState(false);
-      const [hasCopied1, setHasCopied1] = useState(false);
-  
-      const handleCopy = () => {
-          navigator.clipboard.writeText('esdraskj@gmail.com');
-  
-          setHasCopied(true);
-  
-          setTimeout(() => {
-              setHasCopied(false);
-          }, 2000)
-      }
-  
-      const handleCopy1 = () => {
-          navigator.clipboard.writeText('0100548605');
-  
-          setHasCopied1(true);
-  
-          setTimeout(() => {
-              setHasCopied1(false);
-          }, 2000)
-      }
   const [currentCard, setCurrentCard] = useState(0);
   const scrollContainerRef = useRef(null);
 
@@ -115,7 +93,7 @@ export default function AnimatedCards() {
           </motion.div>
         ))}
 
-<div className='absolute xs:bottom-10 bottom-15 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-15 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
