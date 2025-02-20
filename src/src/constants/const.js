@@ -181,6 +181,38 @@ import {
       ],
     },
   ];
+
+
+  const degrees = [
+
+    {
+      title: "Master en Sécurité - Cybersécurité et IA",
+      company_name: "INPHB x X-Politech x ENSEA",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "Septembre 2024 - Juin 2026",
+      points: [
+      ],
+    },
+    {
+      title: "Licence en Systèmes Informatiques et Génie Logiciel",
+      company_name: "Ecole Supérieure Africaine des TIC (ESATIC)",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Septembre 2019 - Juin 2022",
+      points: [
+      ],
+    },
+    {
+      title: "Bac Série C",
+      company_name: "Lycée Scientifique de Yamoussoukro",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "Septembre 2016 - Juin 2019",
+      points: [
+      ],
+    },
+  ];
   
   const testimonials = [
     {
@@ -275,4 +307,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, degrees };

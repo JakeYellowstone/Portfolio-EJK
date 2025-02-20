@@ -10,10 +10,16 @@ import { OrbitControls, SpotLight} from '@react-three/drei';
 import { workExperiences } from '../constants';
 import CanvasLoader from '../components/CanvasLoader'
 import Academic from '../components/Academic'
+import Tech from '../components/Tech'
+import Profession from '../components/Profession'
 import Moi from '../components/Moi'
 
 /*================== MOTION IMPORT ==================*/
 import { motion } from "framer-motion";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
 
 
 
@@ -40,9 +46,9 @@ const Experiences = () => {
 
       {/* Partie droite avec l'animation */}
       <div className="w-3/4 flex flex-col overflow-y-auto overflow-hidden h-screen">
+        <Profession />
         <Academic />
-        
-
+        <Tech />    
       <div className='absolute xs:bottom-10 bottom-15 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>

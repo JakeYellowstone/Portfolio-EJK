@@ -8,8 +8,8 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../style";
-import { degrees } from "../constants/const";
-import { SectionWrapper } from "../components/hoc";
+import { experiences } from "../constants/const";
+import { SectionWrapper } from "./hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
@@ -56,18 +56,18 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-const Academic = () => {
+const Profession = () => {
   return (
     <div className="flex flex-col w-full max-w-full overflow-hidden">
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.heroHeadText} text-white mb-3`}>
-        Parcours <span className='text-[#915EFF]'>Académique</span>
-                  </h2>
+      <h2 className={`${styles.heroHeadText} text-white mb-3`}>
+            Expérience <span className='text-[#915EFF]'>Professionnelle</span>
+          </h2>
       </motion.div>
 
       <div className='flex flex-col items-center'>
         <VerticalTimeline >
-          {degrees.map((experience, index) => (
+          {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
@@ -79,4 +79,4 @@ const Academic = () => {
   );
 };
 
-export default SectionWrapper(Academic, "work");
+export default SectionWrapper(Profession, "work");
