@@ -4,15 +4,14 @@ import React, { useRef, useState, Suspense } from 'react'
 /*================== IMPORT THREE ==================*/
 import { Canvas } from '@react-three/fiber'; 
 import { AmbientLight, DirectionalLight } from 'three';
-import { OrbitControls, SpotLight} from '@react-three/drei'; 
+import { OrbitControls, SpotLight, Center} from '@react-three/drei'; 
 
 /*================== COMPONENT IMPORT ==================*/
+import StarsCanvas from '../components/canvas/Stars'
 import { workExperiences } from '../constants';
 import CanvasLoader from '../components/CanvasLoader'
 import Cockpit from '../components/Cockpit'
-import Tech from '../components/Tech'
-import Profession from '../components/Profession'
-import Moi from '../components/Moi'
+import HeroCamera from '../components/HeroCamera'
 
 /*================== MOTION IMPORT ==================*/
 import { motion } from "framer-motion";
@@ -30,8 +29,22 @@ const Accueil = () => {
 
 
   return (
-    <section className="flex min-h-screen">
-      <Cockpit />
+    <section className='relative z-0 flex w-full h-screen'>
+                <Canvas className='h-full'>
+                    <ambientLight intensity={Math.PI/2} />
+                    <directionalLight position={[10,10,5]} />
+                    <Center>
+                        <Suspense fallback={<CanvasLoader/>}>
+                        <HeroCamera>
+                            <Cockpit />
+                        </HeroCamera>
+                        </Suspense>
+                    </Center>
+
+                        <OrbitControls maxPolarAngle={Math.PI/2} enableZoom={false} />
+
+                </Canvas>
+                              <StarsCanvas />
     </section>
   );
 }

@@ -4,7 +4,7 @@ import { useGLTF } from '@react-three/drei'
 const Cockpit = (props)  => {
   const { nodes, materials } = useGLTF('/models/cockpit.glb')
   return (
-    <group {...props} dispose={null}>
+    <group {...props} dispose={null} scale={40}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group position={[-0.583, 0.666, -0.262]} rotation={[2.284, Math.PI / 2, 0]}>
           <mesh
@@ -28,6 +28,7 @@ const Cockpit = (props)  => {
                 material={materials.default_cockpit}
               />
               <mesh
+                name='ecran_c_gauche'
                 castShadow
                 receiveShadow
                 geometry={nodes['default_cockpit_screen-material'].geometry}
@@ -220,6 +221,7 @@ const Cockpit = (props)  => {
           </group>
           <mesh
             castShadow
+            name='ecran_central'
             receiveShadow
             geometry={nodes['default_cockpit_screen-material_1'].geometry}
             material={materials.default_cockpit_screen}
@@ -727,6 +729,7 @@ const Cockpit = (props)  => {
                 material={materials.default_cockpit}
               />
               <mesh
+                name='ecran_c_gauche'
                 castShadow
                 receiveShadow
                 geometry={nodes['default_cockpit_screen-material_3'].geometry}

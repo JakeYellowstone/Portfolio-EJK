@@ -67,50 +67,11 @@ export default function AnimatedCards() {
   return (
     <section className="flex min-h-screen">
       {/* Partie gauche (autre contenu) */}
-      <div className="w-2/3 justify-center flex">
+      <div className="w-full justify-center flex">
         <Hero />
       </div>
 
-      {/* Partie droite avec l'animation */}
-      <div
-        ref={scrollContainerRef}
-        onWheel={handleScroll}
-        className="w-1/3 flex justify-center items-center overflow-hidden relative"
-      >
-        {cards.map((card, index) => (
-          <motion.div
-            key={card.id}
-            initial={{ opacity: 0, scale: 1.2, y: 50 }}
-            animate={index === currentCard ? { opacity: 1, scale: 1, y: 0 } : { opacity: 0, scale: 0.8, y: -50 }}
-            transition={{ duration: 0.8 }}
-            className={`absolute w-full max-w-lg p-6 bg-gray-800 rounded-3xl shadow-lg text-white text-center ${
-              index === currentCard ? "block" : "hidden"
-            }`}
-          >
-            {card.img}
-            <h2 className="text-xl font-bold mb-2">{card.title}</h2>
-            <p className="text-sm">{card.text}</p>
-          </motion.div>
-        ))}
-
-      <div className='absolute xs:bottom-10 bottom-15 w-full flex justify-center items-center'>
-        <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className='w-3 h-3 rounded-full bg-[#915EFF] mb-1'
-            />
-          </div>
-        </a>
-      </div>
-      </div>
+      
     </section>
   );
 }

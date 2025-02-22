@@ -34,12 +34,6 @@ const Hero = () => {
       </div>
 
       <ComputersCanvas />
-
-      <div className='absolute bottom-7 w-full z-10 c-space'>
-          <a href="#contact" className='w-fit'>
-            <Button name="Retour au cockpit" isBeam containerClass="sm:fit w-full sm:min-w-96" />
-          </a>
-        </div>
     </section>
   );
 };

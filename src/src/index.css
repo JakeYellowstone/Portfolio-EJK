@@ -11,11 +11,21 @@ html, body {
   width: 100vw !important;
 }
 
-
 body {
   background: #010103;
   font-family: 'General Sans', sans-serif;
 }
+
+body {
+  background-image: url('/public/assets/fond_pc.png'); /* Chemin vers ton image */
+  background-size: cover; /* Adapte l’image à l’écran en remplissant tout */
+  background-position: center; /* Centre l’image */
+  background-repeat: no-repeat; /* Évite la répétition */
+  background-attachment: fixed; /* Fixe l’image pour un effet parallax */
+}
+
+
+
 
 .c-space {
   padding-left: 1.25rem;
