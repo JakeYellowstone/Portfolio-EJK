@@ -7,7 +7,7 @@ import { styles } from "../style";
 
 const Tech = () => {
   return (
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
+    <div className='flex flex-row flex-wrap justify-center overflow-hidden gap-10'>
         <h2 className={`${styles.heroHeadText} text-white mb-3`}>
             Technologies <span className='text-[#915EFF]'>Utilisées</span>
           </h2>

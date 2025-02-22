@@ -59,8 +59,8 @@ export const navLinks = [
   export const myProjects = [
     {
       title: 'Site Web - SOKO Corporation',
-      desc: "J’ai conçu et développé le site web de Soko Corporation, une entreprise spécialisée dans l’innovation technologique, la vente de matériels informatiques et l’intégration de solutions numériques. Réalisé avec Laravel, ce projet visait à offrir une plateforme moderne, intuitive et sécurisée, optimisée pour une navigation fluide sur tous les appareils.",
-      subdesc: "J’ai mis en place un système de gestion de contenu dynamique, une base de données sécurisée et des optimisations en SEO et en performance, garantissant rapidité et visibilité sur les moteurs de recherche. Grâce à une architecture bien pensée, l’équipe de Soko Corporation peut gérer son site en toute autonomie.",
+      desc: "J’ai conçu et développé le site web de Soko Corporation, une entreprise spécialisée dans l’innovation technologique, la vente de matériels informatiques et l’intégration de solutions numériques. ",
+      subdesc: "Réalisé avec Laravel, ce projet visait à offrir une plateforme moderne, intuitive et sécurisée, optimisée pour une navigation fluide sur tous les appareils.",
       href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
       texture: '/textures/project/11.mp4',
       logo: '/assets/project-logo1.png',
@@ -94,10 +94,10 @@ export const navLinks = [
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'Site web pour Locatec',
+      desc: 'J’ai conçu et développé le site web de Locatec, une entreprise spécialisée dans la vente et location d’imprimantes, l’audit, l’infogérance et la maintenance d’équipements d’impression.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+        'Réalisé avec Javascript, HTML/CSS3, ce projet offre une interface moderne, intuitive et responsive, permettant aux clients de découvrir les services de l’entreprise, de demander des devis et de planifier des interventions de maintenance.',
       href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
@@ -131,10 +131,10 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Site web de Schiba Holding',
+      desc: 'J’ai réalisé le site web de Schiba Holding, un groupe ivoirien multisectoriel intervenant dans les domaines du BTP, de l’énergie, de la finance et bien d’autres secteurs stratégiques.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+        'Conçu avec Bootstrap, PHP, ce site met en avant les différentes activités du groupe à travers une interface professionnelle et ergonomique, optimisée pour une expérience utilisateur fluide.',
       href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
@@ -170,10 +170,10 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'Natsar – Application web de gestion de carburant',
+      desc: 'J’ai développé Natsar, une application web permettant la gestion optimisée du carburant pour les employés de l’entreprise ETS MSSZ.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+        'Développée avec Laravel, Javascript, cette solution offre un suivi détaillé de la consommation de carburant, la gestion des approvisionnements et l’analyse des dépenses, assurant une meilleure transparence et un contrôle efficace des ressources.',
       href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
@@ -207,10 +207,158 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+      title: 'Application web CRM pour un hôtel',
+      desc: 'J’ai conçu un CRM sur-mesure pour un hôtel, permettant la gestion des cotations, des réservations de salles et des facturations.',
       subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+        'Développée avec Laravel, Vue.js, cette plateforme centralise les interactions avec les clients, automatise les devis et facilite la gestion des événements et des réservations, améliorant ainsi la productivité du personnel.',
+      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      texture: '/textures/project/project5.mp4',
+      logo: '/assets/project-logo5.png',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
+      title: 'Application mobile de gestion des dépenses hebdomadaires',
+      desc: 'J’ai développé une application mobile de gestion des dépenses permettant aux utilisateurs de suivre et optimiser leurs budgets hebdomadaires.',
+      subdesc:
+        'Créée avec Flutter, cette application propose un tableau de bord interactif, des alertes personnalisées et des graphiques analytiques pour aider les utilisateurs à mieux gérer leurs finances personnelles.',
+      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      texture: '/textures/project/project5.mp4',
+      logo: '/assets/project-logo5.png',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
+      title: 'Application mobile de gestion de carburant – Module pompiste',
+      desc: 'Dans le cadre de l’optimisation de la gestion du carburant en entreprise, j’ai développé une application mobile destinée aux pompistes.',
+      subdesc:
+        'Ce module, conçu avec Flutter et Firebase, permet aux pompistes de gérer les services en temps réel, d’enregistrer chaque transaction et de générer des rapports détaillés sur les opérations effectuées. Ce projet fait partie d’un système global, comprenant un module web et deux applications mobiles.',
+      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      texture: '/textures/project/project5.mp4',
+      logo: '/assets/project-logo5.png',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
+      title: 'Application mobile de gestion de carburant – Module demandeur',
+      desc: 'Complétant l’écosystème de gestion de carburant en entreprise, cette application mobile est dédiée aux demandeurs de carburant.',
+      subdesc:
+        'Développée avec Flutter, elle permet aux employés de soumettre des demandes de ravitaillement, suivre leurs consommations et générer des rapports personnalisés. Ce module s’intègre parfaitement avec les autres applications du projet pour une gestion centralisée et efficace.',
+      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      texture: '/textures/project/project5.mp4',
+      logo: '/assets/project-logo5.png',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
+      title: 'BiblioNet – Application web de gestion de bibliothèque',
+      desc: 'J’ai conçu et développé BiblioNet, une application web permettant la gestion complète d’une bibliothèque.',
+      subdesc:
+        'Développée avec Django et React.js, cette solution offre des fonctionnalités avancées : gestion des emprunts et retours, suivi des disponibilités, inscriptions des lecteurs et génération de rapports statistiques. L’interface intuitive permet une utilisation simple et efficace, aussi bien pour les bibliothécaires que pour les usagers.',
       href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
@@ -249,13 +397,10 @@ export const navLinks = [
     return {
       deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
       deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
-      reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
-      targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
-      
-      cubePosition: isSmall ? [4, 6, 0] : isMobile ? [5, 6, 0] : isTablet ? [5, 8, 0] : [-2, 6, 0],
-      pythonLogoPosition: isSmall ? [3, 8, -5] : isMobile ? [5, 8, -5] : isTablet ? [5, 8, -5] : [12, 8, -5],
-      ringPosition: isSmall ? [-4, 8, 0] : isMobile ? [-9, 10, 0] : isTablet ? [-10, 10, 0] : [-20, 10, 0],
-      kaliPosition: isSmall ? [-1, 8, -10] : isMobile ? [-7, 8, -10] : isTablet ? [-9, 8, -10] : [-10, 8, -10],
+      c8LogoPosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [8, -4, 0],
+      pythonLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
+      ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
+      kaliPosition: isSmall ? [-5, -10, -10] : isMobile ? [-5, -10, -10] : isTablet ? [-8, -7, -10] : [-17, -10, -10],
     };
   };
   

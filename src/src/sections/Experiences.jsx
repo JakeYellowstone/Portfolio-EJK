@@ -30,43 +30,21 @@ const Experiences = () => {
 
 
   return (
-    <section className="flex min-h-screen">
-      {/* Partie gauche (autre contenu) */}
-      <div className="w-1/4 justify-center flex">
-      <Canvas>
-                        <ambientLight intensity={7} />
-                        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-                        <directionalLight position={[10,10,10]} intensity={1} />
-                        <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
-                        <Suspense fallback={<CanvasLoader />}>
-                            <Moi position-y={-3} scale={3}  animationName={animationName} />
-                        </Suspense>
-                    </Canvas>
-      </div>
+    <section className="flex min-h-screen overflow-auto">
+      <div className='w-full text-white text-white-600'>
+            <div className='work-container'>
+                
 
-      {/* Partie droite avec l'animation */}
-      <div className="w-3/4 flex flex-col overflow-y-auto overflow-hidden h-screen">
-        <Profession />
-        <Academic />
-        <Tech />    
-      <div className='absolute xs:bottom-10 bottom-15 w-full flex justify-center items-center'>
-        <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className='w-3 h-3 rounded-full bg-[#915EFF] mb-1'
-            />
-          </div>
-        </a>
-      </div>
-      </div>
+                <div className='work-content'>
+                    <div className='sm:py-10 py-5 sm:px-5 px-2.5 flex flex-col overflow-y-auto overflow-hidden h-screen'>
+                    <Profession />
+                    <Academic />
+                    <Tech />
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
   );
 }

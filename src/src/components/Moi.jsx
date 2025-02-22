@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { useAnimations, useFBX, useGLTF } from '@react-three/drei'
 
-const Moi = ({animationName = 'idle', ...props}) => {
+const Moi = ({animationName = 'salute', ...props}) => {
 
   const { nodes, materials } = useGLTF('/models/animations/moi.glb')
   const group = useRef()

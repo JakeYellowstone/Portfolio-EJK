@@ -25,7 +25,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Enchanté <span className="waving-hand">👋</span> , Je suis <span className='text-[#915EFF]'>Esdras Kouamé</span>
+            Enchanté <span className="waving-hand">👋</span> , Je suis <span className='text-[#915EFF]'>Esdras Jonathan Kouamé</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Et c'est mon portfolio d'Ingénieur en Cybersécurité

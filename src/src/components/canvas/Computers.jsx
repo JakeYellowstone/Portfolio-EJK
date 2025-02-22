@@ -1,10 +1,7 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-import KaliLogo from '../KaliLogo'
-import C8Logo from '../C8Logo'
-import PythonLogo from '../PythonLogo'
-import Ring from '../Ring'
+
 import { useMediaQuery } from 'react-responsive';
 import { calculateSizes } from '../../constants';
 
@@ -37,11 +34,6 @@ const Computers = ({ isMobile }) => {
 };
 
 const ComputersCanvas = () => {
-  const isSmall = useMediaQuery({ maxWidth: 440 });
-  const isMobileM = useMediaQuery({ maxWidth: 768 });
-  const isTablet = useMediaQuery({ minWidth : 768, maxWidth : 1024 });
-  
-  const sizes = calculateSizes(isSmall, isMobileM, isTablet);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -80,17 +72,6 @@ const ComputersCanvas = () => {
           minPolarAngle={Math.PI / 2}
         />
         <Computers isMobile={isMobile} />
-        <group>
-        
-                          <KaliLogo position={sizes.kaliPosition} />
-        
-                          <PythonLogo position={sizes.pythonLogoPosition} />
-        
-                          <C8Logo position={sizes.cubePosition} />
-        
-                          <Ring position={sizes.ringPosition} />
-        
-                        </group>
       </Suspense>
 
       <Preload all />

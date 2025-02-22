@@ -59,11 +59,11 @@ const ExperienceCard = ({ experience }) => {
 const Profession = () => {
   return (
     <div className="flex flex-col w-full max-w-full overflow-hidden">
-      <motion.div variants={textVariant()}>
-      <h2 className={`${styles.heroHeadText} text-white mb-3`}>
+      
+      
+      <h2 className={`${styles.heroHeadText} text-white mb-3 mt-6`}>
             Expérience <span className='text-[#915EFF]'>Professionnelle</span>
           </h2>
-      </motion.div>
 
       <div className='flex flex-col items-center'>
         <VerticalTimeline >
