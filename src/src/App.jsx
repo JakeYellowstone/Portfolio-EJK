@@ -49,9 +49,7 @@ const App = () => {
         <Projects />
       </FadeScrollSection>
 
-      <FadeScrollSection>
         <Experiences />
-      </FadeScrollSection>
 
       <FadeScrollSection>
         <Contact />  
