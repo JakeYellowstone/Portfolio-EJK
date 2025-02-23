@@ -13,7 +13,7 @@ const cards = [
   {
     id: 1,
     img: <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />,
-    title: "Bonjour, Je m'appelle Esdras Jonathan Kouamé",
+    title: "",
     text: "De base, un développeur web et mobile passionné de cybersécurité et IA, actuellement en Côte d'Ivoire. Mon objectif est de créer des solutions numériques innovantes, sécurisées et intelligentes, tout en répondant aux besoins spécifiques de mes clients.",
   },
   {

@@ -58,48 +58,12 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Site Web - SOKO Corporation',
-      desc: "J’ai conçu et développé le site web de Soko Corporation, une entreprise spécialisée dans l’innovation technologique, la vente de matériels informatiques et l’intégration de solutions numériques. ",
-      subdesc: "Réalisé avec Laravel, ce projet visait à offrir une plateforme moderne, intuitive et sécurisée, optimisée pour une navigation fluide sur tous les appareils.",
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-      texture: '/textures/project/11.mp4',
-      logo: '/assets/project-logo1.png',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
       title: 'Site web pour Locatec',
       desc: 'J’ai conçu et développé le site web de Locatec, une entreprise spécialisée dans la vente et location d’imprimantes, l’audit, l’infogérance et la maintenance d’équipements d’impression.',
       subdesc:
         'Réalisé avec Javascript, HTML/CSS3, ce projet offre une interface moderne, intuitive et responsive, permettant aux clients de découvrir les services de l’entreprise, de demander des devis et de planifier des interventions de maintenance.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project2.mp4',
+      href: 'https://www.locatec-ci.com/',
+      texture: '/textures/project/locat.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
         backgroundColor: '#13202F',
@@ -110,23 +74,54 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'HTML 5',
+          path: '/assets/tech/html.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'CSS 3',
+          path: 'assets/tech/css.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'Javascript',
+          path: '/assets/tech/javascript.png',
+        },
+      ],
+    },
+    {
+      title: 'Site Web - SOKO Corporation',
+      desc: "J’ai conçu et développé le site web de Soko Corporation, une entreprise spécialisée dans l’innovation technologique, la vente de matériels informatiques et l’intégration de solutions numériques. ",
+      subdesc: "Réalisé avec Laravel, ce projet visait à offrir une plateforme moderne, intuitive et sécurisée, optimisée pour une navigation fluide sur tous les appareils.",
+      href: '#',
+      texture: '/textures/project/soko.mp4',
+      logo: '/assets/projet_mobile.png',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'HTML 5',
+          path: '/assets/tech/html.png',
+        },
+        {
+          id: 2,
+          name: 'CSS 3',
+          path: 'assets/tech/css.png',
+        },
+        {
+          id: 3,
+          name: 'Javascript',
+          path: '/assets/tech/javascript.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Laravel',
+          path: '/assets/tech/laravel.png',
         },
       ],
     },
@@ -149,23 +144,18 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'HTML 5',
+          path: '/assets/tech/html.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'CSS 3',
+          path: 'assets/tech/css.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Javascript',
+          path: '/assets/tech/javascript.png',
         },
       ],
     },
@@ -174,8 +164,8 @@ export const navLinks = [
       desc: 'J’ai développé Natsar, une application web permettant la gestion optimisée du carburant pour les employés de l’entreprise ETS MSSZ.',
       subdesc:
         'Développée avec Laravel, Javascript, cette solution offre un suivi détaillé de la consommation de carburant, la gestion des approvisionnements et l’analyse des dépenses, assurant une meilleure transparence et un contrôle efficace des ressources.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-      texture: '/textures/project/project4.mp4',
+      href: '#',
+      texture: '/textures/project/gest_carb.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
@@ -186,23 +176,23 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'HTML 5',
+          path: '/assets/tech/html.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'CSS 3',
+          path: 'assets/tech/css.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'Javascript',
+          path: '/assets/tech/javascript.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Laravel',
+          path: '/assets/tech/laravel.png',
         },
       ],
     },
@@ -211,8 +201,8 @@ export const navLinks = [
       desc: 'J’ai conçu un CRM sur-mesure pour un hôtel, permettant la gestion des cotations, des réservations de salles et des facturations.',
       subdesc:
         'Développée avec Laravel, Vue.js, cette plateforme centralise les interactions avec les clients, automatise les devis et facilite la gestion des événements et des réservations, améliorant ainsi la productivité du personnel.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
+      href: '#',
+      texture: '/textures/project/palm.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -223,23 +213,23 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'HTML 5',
+          path: '/assets/tech/html.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'CSS 3',
+          path: 'assets/tech/css.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'Javascript',
+          path: '/assets/tech/javascript.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Laravel',
+          path: '/assets/tech/laravel.png',
         },
       ],
     },
@@ -248,8 +238,8 @@ export const navLinks = [
       desc: 'J’ai développé une application mobile de gestion des dépenses permettant aux utilisateurs de suivre et optimiser leurs budgets hebdomadaires.',
       subdesc:
         'Créée avec Flutter, cette application propose un tableau de bord interactif, des alertes personnalisées et des graphiques analytiques pour aider les utilisateurs à mieux gérer leurs finances personnelles.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
+      href: '#',
+      texture: '/textures/project/depenses.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -260,23 +250,8 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Flutter',
+          path: '/assets/tech/flutter.png',
         },
       ],
     },
@@ -285,35 +260,20 @@ export const navLinks = [
       desc: 'Dans le cadre de l’optimisation de la gestion du carburant en entreprise, j’ai développé une application mobile destinée aux pompistes.',
       subdesc:
         'Ce module, conçu avec Flutter et Firebase, permet aux pompistes de gérer les services en temps réel, d’enregistrer chaque transaction et de générer des rapports détaillés sur les opérations effectuées. Ce projet fait partie d’un système global, comprenant un module web et deux applications mobiles.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
+      href: '#',
+      texture: '/textures/project/pomp.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
-      spotlight: '/assets/spotlight5.png',
+      spotlight: '/assets/spotlight1.png',
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Flutter',
+          path: '/assets/tech/flutter.png',
         },
       ],
     },
@@ -322,35 +282,20 @@ export const navLinks = [
       desc: 'Complétant l’écosystème de gestion de carburant en entreprise, cette application mobile est dédiée aux demandeurs de carburant.',
       subdesc:
         'Développée avec Flutter, elle permet aux employés de soumettre des demandes de ravitaillement, suivre leurs consommations et générer des rapports personnalisés. Ce module s’intègre parfaitement avec les autres applications du projet pour une gestion centralisée et efficace.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
+      href: '#',
+      texture: '/textures/project/natsar_demande.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
-      spotlight: '/assets/spotlight5.png',
+      spotlight: '/assets/spotlight2.png',
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Flutter',
+          path: '/assets/tech/flutter.png',
         },
       ],
     },
@@ -360,14 +305,14 @@ export const navLinks = [
       subdesc:
         'Développée avec Django et React.js, cette solution offre des fonctionnalités avancées : gestion des emprunts et retours, suivi des disponibilités, inscriptions des lecteurs et génération de rapports statistiques. L’interface intuitive permet une utilisation simple et efficace, aussi bien pour les bibliothécaires que pour les usagers.',
       href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
+      texture: '/textures/project/biblio.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
-      spotlight: '/assets/spotlight5.png',
+      spotlight: '/assets/spotlight3.png',
       tags: [
         {
           id: 1,
