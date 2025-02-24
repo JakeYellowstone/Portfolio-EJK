@@ -1,82 +1,24 @@
-export const navLinks = [
-    {
-      id: 1,
-      nom: 'Accueil',
-      href: '#home',
-    },
-    {
-      id: 2,
-      nom: 'À mon sujet',
-      href: '#about',
-    },
-    {
-      id: 3,
-      nom: 'Travaux',
-      href: '#work',
-    },
-    {
-      id: 4,
-      nom: 'Contact',
-      href: '#contact',
-    },
-  ];
-  
-  export const clientReviews = [
-    {
-      id: 1,
-      name: 'Emily Johnson',
-      position: 'Marketing Director at GreenLeaf',
-      img: 'assets/review1.png',
-      review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-      id: 2,
-      name: 'Mark Rogers',
-      position: 'Founder of TechGear Shop',
-      img: '/assets/review2.png',
-      review:
-        'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-      id: 3,
-      name: 'John Dohsas',
-      position: 'Project Manager at UrbanTech ',
-      img: '/assets/review3.png',
-      review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-      id: 4,
-      name: 'Ether Smith',
-      position: 'CEO of BrightStar Enterprises',
-      img: '/assets/review4.png',
-      review:
-        'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
-  ];
-  
-  export const myProjects = [
+export const myProjects = [
     {
       title: "Site web pour Locatec",
       desc: "J’ai conçu et développé le site web de Locatec, une entreprise spécialisée dans la vente et location d’imprimantes, l’audit, l’infogérance et la maintenance d’équipements d’impression.",
       subdesc:
-        "Je l'ai réalisé avec Javascript, HTML/CSS3, pour obtenir une plateforme visuellement belle qui attirera les regards des clients. ce projet offre une interface moderne, intuitive et responsive, permettant aux clients de découvrir les services de l’entreprise.",
+        "Réalisé avec Javascript, HTML/CSS3, ce projet offre une interface moderne, intuitive et responsive, permettant aux clients de découvrir les services de l’entreprise.",
       href: 'https://www.locatec-ci.com/',
       texture: '/textures/project/locat.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
-        backgroundColor: '#60f5a1',
+        backgroundColor: '#13202F',
         background:
-          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-        border: '0.2px solid rgba(208, 213, 221, 1)',
-        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        border: '0.2px solid #17293E',
+        boxShadow: '0px 0px 60px 0px #2F6DB54D',
       },
-      spotlight: '/assets/spotlight3.png',
+      spotlight: '/assets/spotlight2.png',
       tags: [
         {
           id: 1,
-          name: 'HTML 5',
+          name: 'HTML 5', 
           path: '/assets/tech/html.png',
         },
         {
@@ -94,7 +36,7 @@ export const navLinks = [
     {
       title: "Site Web - SOKO Corporation",
       desc: "J’ai conçu et développé le site web de Soko Corporation, une entreprise spécialisée dans l’innovation technologique, la vente de matériels informatiques et l’intégration de solutions numériques. ",
-      subdesc: "Le site web devait avoir un aspect futuristique et numérique, pour permettre de voir l'aspect technologique de l'entreprie. Réalisé avec Laravel, ce projet visait à offrir une plateforme moderne, intuitive et sécurisée, optimisée pour une navigation fluide sur tous les appareils.",
+      subdesc: "Réalisé avec Laravel, ce projet visait à offrir une plateforme moderne, intuitive et sécurisée, optimisée pour une navigation fluide sur tous les appareils.",
       href: '#',
       texture: '/textures/project/soko.mp4',
       logo: '/assets/projet_mobile.png',
@@ -346,64 +288,5 @@ export const navLinks = [
           path: '/assets/tech/javascript.png',
         },
       ],
-    },
-  ];
-  
-  export const calculateSizes = (isSmall, isMobile, isTablet) => {
-    return {
-      deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
-      deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
-      c8LogoPosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [8, -4, 0],
-      pythonLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
-      ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
-      kaliPosition: isSmall ? [-5, -10, -10] : isMobile ? [-5, -10, -10] : isTablet ? [-8, -7, -10] : [-17, -10, -10],
-    };
-  };
-  
-  export const workExperiences = [
-    {
-      id: 1,
-      name: 'Schiba Holding – Angré (Groupe ivoirien multisectoriel)',
-      pos: "Développeur d'application Web et mobile (CDD)",
-      duration: 'Février 2024 - Août 2024',
-      title: "J'ai contribué au développement d'applications et site web et mobiles pour optimiser les processus internes du groupe, en utilisant des technologies comme Laravel",
-      icon: '/assets/framer.svg',
-      animation: 'victory',
-    },
-    {
-      id: 2,
-      name: 'Schiba Holding – Angré (Groupe ivoirien multisectoriel)',
-      pos: "Développeur d'application Web et mobile (Stage de perfectionnement)",
-      duration: 'Décembre 2022 - Décembre 2023',
-      title: "J'ai approfondi mes compétences en développement tout en concevant des projets stratégiques pour améliorer l'efficacité opérationnelle et la visibilité du groupe.",
-      icon: '/assets/figma.svg',
-      animation: 'clapping',
-    },
-    {
-      id: 3,
-      name: 'Établissement Multi-Services Soro Zié – Cocody (Filiale BTP de Schiba Holding)',
-      pos: "Développeur d'application Web et mobile (Stage École)",
-      duration: 'Mars 2022 - Septembre 2022',
-      title: "J'ai développé des solutions web et mobiles pour faciliter la gestion de la consommation en carburant au sein de l'entreprise",
-      icon: '/assets/notion.svg',
-      animation: 'salute',
-    },
-    {
-      id: 4,
-      name: 'DIGITAL CI (Intégrateur de solutions digitales)',
-      pos: "Développeur d'application Web et mobile",
-      duration: 'Août 2021 - Octobre 2021',
-      title: "J'ai conçu et implémenté des applications sur mesure pour des clients, en utilisant des technologies comme Laravel et Flutter pour répondre à leurs besoins spécifiques.",
-      icon: '/assets/framer.svg',
-      animation: 'victory',
-    },
-    {
-      id: 5,
-      name: "X'TRAORDINAIR (Intégrateur de solutions digitales)",
-      pos: "Développeur d'application Web et mobile",
-      duration: 'Août 2021 - Octobre 2021',
-      title: "J'ai participé au developpement d'un CRM pour un hôtel",
-      icon: '/assets/framer.svg',
-      animation: 'clapping',
     },
   ];
