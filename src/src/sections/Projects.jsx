@@ -79,7 +79,7 @@ const Projects = () => {
                     <Center>
                         <Suspense fallback={<CanvasLoader/>}>
                         {currentProject.type === "mobile" ? (
-                            <group position={[0.5, -3.8, 0]} scale={1.5}>
+                            <group  scale={0.045}>
                                 <Phone texture={currentProject.texture} />
                             </group>
                             ) : (

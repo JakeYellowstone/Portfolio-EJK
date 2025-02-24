@@ -307,7 +307,7 @@ export const navLinks = [
       subdesc:
         "Développée avec Flutter, elle permet aux employés de soumettre des demandes de ravitaillement, suivre leurs consommations et générer des rapports personnalisés. Ce module s’intègre parfaitement avec les autres applications du projet pour une gestion centralisée et efficace.",
       href: '#',
-      texture: '/textures/project/natsar_demande.mp4',
+      texture: '/textures/project/demande.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
