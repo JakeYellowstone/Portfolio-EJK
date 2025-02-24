@@ -7,6 +7,9 @@ const Phone =  (props) => {
   const { nodes, materials } = useGLTF('/models/smartphone.glb')
   const group = useRef()
   const txt = useVideoTexture(props.texture ? props.texture : '/textures/project/project1.mp4')
+  txt.repeat.set(1.2, 1); // Ajuste la répétition sur l'axe X
+txt.offset.set(-0.1, 0); // Décale légèrement la texture
+
 
   useGSAP(() => {
     gsap.from(group.current.rotation, {

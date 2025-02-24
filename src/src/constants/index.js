@@ -90,6 +90,16 @@ export const navLinks = [
           name: 'Javascript',
           path: '/assets/tech/javascript.png',
         },
+        {
+          id: 4,
+          name: 'Bootstrap',
+          path: '/assets/tech/bootstrap.png',
+        },
+        {
+          id: 5,
+          name: 'Php',
+          path: '/assets/tech/php.png',
+        },
       ],
     },
     {
@@ -129,6 +139,11 @@ export const navLinks = [
           name: 'Laravel',
           path: '/assets/tech/laravel.png',
         },
+        {
+          id: 5,
+          name: 'Bootstrap',
+          path: '/assets/tech/bootstrap.png',
+        },
       ],
     },
     {
@@ -137,7 +152,7 @@ export const navLinks = [
       desc: "J’ai réalisé le site web de Schiba Holding, un groupe ivoirien multisectoriel intervenant dans les domaines du BTP, de l’énergie, de la finance et bien d’autres secteurs stratégiques.",
       subdesc:
         "Conçu avec Bootstrap, PHP, ce site met en avant les différentes activités du groupe à travers une interface professionnelle et ergonomique, optimisée pour une expérience utilisateur fluide.",
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      href: '/textures/project/schiba.mp4',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -163,6 +178,16 @@ export const navLinks = [
           id: 3,
           name: 'Javascript',
           path: '/assets/tech/javascript.png',
+        },
+        {
+          id: 4,
+          name: 'Bootstrap',
+          path: '/assets/tech/bootstrap.png',
+        },
+        {
+          id: 5,
+          name: 'Php',
+          path: '/assets/tech/php.png',
         },
       ],
     },
@@ -199,6 +224,16 @@ export const navLinks = [
           name: 'Javascript',
           path: '/assets/tech/javascript.png',
         },
+        {
+          id: 4,
+          name: 'Bootstrap',
+          path: '/assets/tech/bootstrap.png',
+        },
+        {
+          id: 5,
+          name: 'Php',
+          path: '/assets/tech/php.png',
+        },
       ],
     },
     {
@@ -234,6 +269,11 @@ export const navLinks = [
         },
         {
           id: 4,
+          name: 'Bootstrap',
+          path: '/assets/tech/bootstrap.png',
+        },
+        {
+          id: 5,
           name: 'Laravel',
           path: '/assets/tech/laravel.png',
         },
@@ -272,6 +312,11 @@ export const navLinks = [
         },
         {
           id: 4,
+          name: 'Bootstrap',
+          path: '/assets/tech/bootstrap.png',
+        },
+        {
+          id: 5,
           name: 'Laravel',
           path: '/assets/tech/laravel.png',
         },
@@ -284,7 +329,7 @@ export const navLinks = [
       subdesc:
         "Ce module, conçu avec Flutter, permet aux pompistes de gérer les services en temps réel, d’enregistrer chaque transaction et de générer des rapports détaillés sur les opérations effectuées. Ce projet fait partie d’un système global, comprenant un module web et deux applications mobiles.",
       href: '#',
-      texture: '/textures/project/pomp.mp4',
+      texture: '/textures/project/mob_pomp.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -351,8 +396,8 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'Javascript',
-          path: '/assets/tech/javascript.png',
+          name: 'Php',
+          path: '/assets/tech/php.png',
         },
       ],
     },
