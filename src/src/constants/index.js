@@ -59,9 +59,10 @@ export const navLinks = [
   export const myProjects = [
     {
       title: "Site web pour Locatec",
+      type : "web",
       desc: "J’ai conçu et développé le site web de Locatec, une entreprise spécialisée dans la vente et location d’imprimantes, l’audit, l’infogérance et la maintenance d’équipements d’impression.",
       subdesc:
-        "Je l'ai réalisé avec Javascript, HTML/CSS3, pour obtenir une plateforme visuellement belle qui attirera les regards des clients. ce projet offre une interface moderne, intuitive et responsive, permettant aux clients de découvrir les services de l’entreprise.",
+        "Je l'ai réalisé avec Javascript, HTML/CSS3, pour obtenir une plateforme visuellement belle qui attirera les regards des clients. Ce projet offre une interface moderne, intuitive et responsive, permettant aux clients de découvrir les services de l’entreprise.",
       href: 'https://www.locatec-ci.com/',
       texture: '/textures/project/locat.mp4',
       logo: '/assets/project-logo3.png',
@@ -93,6 +94,7 @@ export const navLinks = [
     },
     {
       title: "Site Web - SOKO Corporation",
+      type : "web",
       desc: "J’ai conçu et développé le site web de Soko Corporation, une entreprise spécialisée dans l’innovation technologique, la vente de matériels informatiques et l’intégration de solutions numériques. ",
       subdesc: "Le site web devait avoir un aspect futuristique et numérique, pour permettre de voir l'aspect technologique de l'entreprie. Réalisé avec Laravel, ce projet visait à offrir une plateforme moderne, intuitive et sécurisée, optimisée pour une navigation fluide sur tous les appareils.",
       href: '#',
@@ -131,6 +133,7 @@ export const navLinks = [
     },
     {
       title: "Site web de Schiba Holding",
+      type : "web",
       desc: "J’ai réalisé le site web de Schiba Holding, un groupe ivoirien multisectoriel intervenant dans les domaines du BTP, de l’énergie, de la finance et bien d’autres secteurs stratégiques.",
       subdesc:
         "Conçu avec Bootstrap, PHP, ce site met en avant les différentes activités du groupe à travers une interface professionnelle et ergonomique, optimisée pour une expérience utilisateur fluide.",
@@ -165,6 +168,7 @@ export const navLinks = [
     },
     {
       title: 'Site web de Schiba Energie',
+      type : "web",
       desc: "J’ai réalisé le site web de Shiba Energie une filiale du groupe Schiba Holding, qui intervient dans l'énergie, la climatisation etc.",
       subdesc:
         "Conçu avec Bootstrap, PHP, ce site met en avant les différentes activités de l'entreprise à travers une interface professionnelle et ergonomique, optimisée pour une expérience utilisateur fluide.",
@@ -199,6 +203,7 @@ export const navLinks = [
     },
     {
       title: 'Natsar – Application web de gestion de carburant',
+      type : "web",
       desc: "J’ai développé Natsar, une application web permettant la gestion optimisée du carburant pour les employés de l’entreprise ETS MSSZ.",
       subdesc:
         'Développée avec Laravel, Javascript, cette solution offre un suivi détaillé de la consommation de carburant, la gestion des approvisionnements et l’analyse des dépenses, assurant une meilleure transparence et un contrôle efficace des ressources.',
@@ -236,6 +241,7 @@ export const navLinks = [
     },
     {
       title: 'Application web CRM pour un hôtel',
+      type : "web",
       desc: "J’ai conçu un CRM sur-mesure pour un hôtel, permettant la gestion des cotations, des réservations de salles et des facturations.",
       subdesc:
         'Développée avec Laravel, Vue.js, cette plateforme centralise les interactions avec les clients, automatise les devis et facilite la gestion des événements et des réservations, améliorant ainsi la productivité du personnel.',
@@ -273,6 +279,7 @@ export const navLinks = [
     },
     {
       title: 'Application mobile de gestion de carburant – Module pompiste',
+      type : "mobile",
       desc: "Dans le cadre de l’optimisation de la gestion du carburant en entreprise, j’ai développé une application mobile destinée aux pompistes.",
       subdesc:
         "Ce module, conçu avec Flutter, permet aux pompistes de gérer les services en temps réel, d’enregistrer chaque transaction et de générer des rapports détaillés sur les opérations effectuées. Ce projet fait partie d’un système global, comprenant un module web et deux applications mobiles.",
@@ -295,6 +302,7 @@ export const navLinks = [
     },
     {
       title: 'Application mobile de gestion de carburant – Module demandeur',
+      type : "mobile",
       desc: "Complétant l’écosystème de gestion de carburant en entreprise, cette application mobile est dédiée aux demandeurs de carburant.",
       subdesc:
         "Développée avec Flutter, elle permet aux employés de soumettre des demandes de ravitaillement, suivre leurs consommations et générer des rapports personnalisés. Ce module s’intègre parfaitement avec les autres applications du projet pour une gestion centralisée et efficace.",
@@ -317,6 +325,7 @@ export const navLinks = [
     },
     {
       title: 'BiblioNet – Application web de gestion de bibliothèque',
+      type : "web",
       desc: "J’ai conçu et développé BiblioNet, une application web permettant la gestion complète d’une bibliothèque.",
       subdesc:
         "Développée avec HTML/CSS et PHP, cette solution offre des fonctionnalités avancées : gestion des emprunts et retours, suivi des disponibilités, inscriptions des lecteurs et génération de rapports statistiques. L’interface intuitive permet une utilisation simple et efficace, aussi bien pour les bibliothécaires que pour les usagers.",

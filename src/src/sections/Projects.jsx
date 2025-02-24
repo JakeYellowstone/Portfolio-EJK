@@ -6,6 +6,7 @@ import { Center, OrbitControls } from '@react-three/drei';
 import CanvasLoader from '../components/CanvasLoader';
 import DemoComputer from '../components/DemoComputer';
 import Monitor from '../components/Monitor';
+import Phone from '../components/Phone';
 
 const Projects = () => {
     
@@ -77,12 +78,15 @@ const Projects = () => {
                     <directionalLight position={[10,10,5]} />
                     <Center>
                         <Suspense fallback={<CanvasLoader/>}>
-                        {/**
-                         * 
-                         */}
-                         <group  position={[2,-8,0]} scale={0.4} >
-                            <Monitor texture={currentProject.texture} /> 
-                         </group>
+                        {currentProject.type === "mobile" ? (
+                            <group position={[0.5, -3.8, 0]} scale={1.5}>
+                                <Phone texture={currentProject.texture} />
+                            </group>
+                            ) : (
+                            <group position={[2, -8, 0]} scale={0.4}>
+                                <Monitor texture={currentProject.texture} />
+                            </group>
+                        )}
                         </Suspense>
                     </Center>
 
