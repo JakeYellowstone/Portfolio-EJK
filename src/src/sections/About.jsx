@@ -19,7 +19,7 @@ const cards = [
   {
     id: 2,
     img: <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />,
-    title: "Technologie utilisée",
+    title: "Technologies utilisées",
     text: "J'utilise des technologies modernes pour le développement web, mobile, la cybersécurité et l'intelligence artificielle. Mon objectif est de combiner performance, sécurité et intelligence dans chaque projet.",
   },
   {
@@ -45,8 +45,8 @@ const cards = [
         />
       </div>
     ),
-    title: "Je travaille à distance aussi.",
-    text: "Je propose aussi mes services en développement web, mobile, cybersécurité et intelligence artificielle, avec la possibilité de travailler à distance. Où que vous soyez, je suis prêt à collaborer avec vous pour concrétiser vos idées.",
+    title: "Je travaille aussi à distance.",
+    text: "Je propose aussi mes services avec la possibilité de travailler à distance. Où que vous soyez, je suis prêt à collaborer avec vous pour concrétiser vos idées.",
   },
   {
     id: 4,

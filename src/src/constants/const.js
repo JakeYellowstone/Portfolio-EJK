@@ -153,7 +153,7 @@ import {
       company_name: "Schiba Holding",
       icon: "./assets/company/schiba.png",
       iconBg: "#E6DEDD",
-      date: "Décembre 2023 - Décembre 2024",
+      date: "Décembre 2022 - Décembre 2023",
       points: [
         "Participation à la refonte de solutions logicielles existantes pour les rendre plus performantes.",
         "Développement de fonctionnalités frontend et backend avec Laravel et Bootstrap.",
@@ -195,7 +195,7 @@ import {
       date: "Juin 2021 - Août 2021",
       points: [
         "Travail en équipe pour la conception et la réalisation d'un CRM pour un hotel",
-        "Intégration de bases de données MySQL pour stocker et gérer les données.",
+        "Intégration de base de données MySQL pour stocker et gérer les données.",
         "Mise en œuvre de fonctionnalités backend avec PHP et Laravel.",
         "Débogage et correction des erreurs pour assurer la stabilité des applications.",
       ],
