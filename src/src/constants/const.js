@@ -62,47 +62,75 @@ import {
   const technologies = [
     {
       name: "HTML 5",
-      icon: html,
+      icon: "./assets/tech/html.png",
     },
     {
       name: "CSS 3",
-      icon: css,
+      icon: "./assets/tech/css.png",
     },
     {
       name: "JavaScript",
-      icon: javascript,
+      icon: "./assets/tech/javascript.png",
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Laravel",
+      icon: "./assets/tech/laravel.png",
     },
     {
       name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
+      icon: "./assets/tech/react.png",
     },
     {
       name: "Three JS",
-      icon: threejs,
+      icon: "./assets/tech/three.png",
+    },
+    {
+      name: "Tailwind CSS",
+      icon: "./assets/tech/tailwind.png",
+    },
+    {
+      name: "Flutter",
+      icon: "./assets/tech/flutter.png",
+    },
+    {
+      name: "Python",
+      icon: "./assets/tech/python.png",
+    },
+    {
+      name: "C++",
+      icon: "./assets/tech/c88.png",
+    },
+    {
+      name: "Ghidra",
+      icon: "./assets/tech/ghidra.png",
+    },
+    {
+      name: "Metasploit",
+      icon: "./assets/tech/metasploit.png",
+    },
+    {
+      name: "Splunk",
+      icon: "./assets/tech/splunk.png",
+    },
+    {
+      name: "Wireshark",
+      icon: "./assets/tech/wireshark.png",
+    },
+    {
+      name: "TensorFlow",
+      icon: "./assets/tech/tensor.png",
+    },
+    {
+      name: "Pytorch",
+      icon: "./assets/tech/pytorch.png",
+    },
+    {
+      name: "Terraform",
+      icon: "./assets/tech/terraform.png",
     },
     {
       name: "git",
-      icon: git,
+      icon: "./assets/tech/git.png",
     },
     {
       name: "figma",
@@ -118,8 +146,8 @@ import {
     {
       title: "Développeur d'application Web et mobile (CDD)",
       company_name: "Schiba Holding – Angré (Groupe ivoirien multisectoriel)",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: './assets/company/schiba.png',
+      iconBg: "#E6DEDD",
       date: "Février 2024 - Août 2024",
       points: [
         "Développement et maintenance d'applications web et mobiles avec Laravel et Flutter.",
@@ -131,7 +159,7 @@ import {
     {
       title: "Développeur d'application Web et mobile (Stage de perfectionnement)",
       company_name: "Schiba Holding",
-      icon: tesla,
+      icon: "./assets/company/schiba.png",
       iconBg: "#E6DEDD",
       date: "Décembre 2023 - Décembre 2024",
       points: [
@@ -144,8 +172,8 @@ import {
     {
       title: "Développeur d'application Web et mobile (Stage École)",
       company_name: "Établissement Multi-Services Soro Zié – Cocody (Filiale BTP de Schiba Holding)",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: "./assets/company/ets.png",
+      iconBg: "#E6DEDD",
       date: "Mars 2022 - Septembre 2022",
       points: [
         "Création d'applications web pour la gestion des projets de carburant des véhicules de l'entreprise.",
@@ -157,7 +185,7 @@ import {
     {
       title: "Développeur d'application Web et mobile",
       company_name: "DIGITAL CI (Intégrateur de solutions digitales)",
-      icon: meta,
+      icon: "./assets/company/digit.png",
       iconBg: "#E6DEDD",
       date: "Août 2021 - Octobre 2021",
       points: [
@@ -170,7 +198,7 @@ import {
     {
       title: "Développeur d'application Web et mobile",
       company_name: "X'TRAORDINAIR (Intégrateur de solutions digitales)",
-      icon: meta,
+      icon: "./assets/company/xtrao.png",
       iconBg: "#E6DEDD",
       date: "Juin 2021 - Août 2021",
       points: [
@@ -188,7 +216,7 @@ import {
     {
       title: "Master en Sécurité - Cybersécurité et IA",
       company_name: "INPHB x X-Politech x ENSEA",
-      icon: shopify,
+      icon: "./assets/ecoles/inp.png",
       iconBg: "#383E56",
       date: "Septembre 2024 - Juin 2026",
       points: [
@@ -197,7 +225,7 @@ import {
     {
       title: "Licence en Systèmes Informatiques et Génie Logiciel",
       company_name: "Ecole Supérieure Africaine des TIC (ESATIC)",
-      icon: tesla,
+      icon: "./assets/ecoles/esatic.png",
       iconBg: "#E6DEDD",
       date: "Septembre 2019 - Juin 2022",
       points: [
@@ -206,8 +234,8 @@ import {
     {
       title: "Bac Série C",
       company_name: "Lycée Scientifique de Yamoussoukro",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: "./assets/ecoles/lsy.png",
+      iconBg: "#E6DEDD",
       date: "Septembre 2016 - Juin 2019",
       points: [
       ],

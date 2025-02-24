@@ -160,6 +160,40 @@ export const navLinks = [
       ],
     },
     {
+      title: 'Site web de Schiba Energie',
+      desc: "J’ai réalisé le site web de Shiba Energie une filiale du groupe Schiba Holding, qui intervient dasn l'énergie, la climatisation etc...",
+      subdesc:
+        'Conçu avec Bootstrap, PHP, ce site met en avant les différentes activités du groupe à travers une interface professionnelle et ergonomique, optimisée pour une expérience utilisateur fluide.',
+      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      texture: '/textures/project/ses.mp4',
+      logo: '/assets/project-logo3.png',
+      logoStyle: {
+        backgroundColor: '#60f5a1',
+        background:
+          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        border: '0.2px solid rgba(208, 213, 221, 1)',
+        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      },
+      spotlight: '/assets/spotlight3.png',
+      tags: [
+        {
+          id: 1,
+          name: 'HTML 5',
+          path: '/assets/tech/html.png',
+        },
+        {
+          id: 2,
+          name: 'CSS 3',
+          path: 'assets/tech/css.png',
+        },
+        {
+          id: 3,
+          name: 'Javascript',
+          path: '/assets/tech/javascript.png',
+        },
+      ],
+    },
+    {
       title: 'Natsar – Application web de gestion de carburant',
       desc: 'J’ai développé Natsar, une application web permettant la gestion optimisée du carburant pour les employés de l’entreprise ETS MSSZ.',
       subdesc:
@@ -303,8 +337,8 @@ export const navLinks = [
       title: 'BiblioNet – Application web de gestion de bibliothèque',
       desc: 'J’ai conçu et développé BiblioNet, une application web permettant la gestion complète d’une bibliothèque.',
       subdesc:
-        'Développée avec Django et React.js, cette solution offre des fonctionnalités avancées : gestion des emprunts et retours, suivi des disponibilités, inscriptions des lecteurs et génération de rapports statistiques. L’interface intuitive permet une utilisation simple et efficace, aussi bien pour les bibliothécaires que pour les usagers.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+        'Développée avec HTML/CSS et PHP, cette solution offre des fonctionnalités avancées : gestion des emprunts et retours, suivi des disponibilités, inscriptions des lecteurs et génération de rapports statistiques. L’interface intuitive permet une utilisation simple et efficace, aussi bien pour les bibliothécaires que pour les usagers.',
+      href: '#',
       texture: '/textures/project/biblio.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
@@ -316,23 +350,18 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'HTML 5',
+          path: '/assets/tech/html.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'CSS 3',
+          path: 'assets/tech/css.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Javascript',
+          path: '/assets/tech/javascript.png',
         },
       ],
     },
