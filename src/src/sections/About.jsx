@@ -14,7 +14,7 @@ const cards = [
     id: 1,
     img: <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />,
     title: "",
-    text: "De base, un développeur web et mobile passionné de cybersécurité et IA, actuellement en Côte d'Ivoire. Mon objectif est de créer des solutions numériques innovantes, sécurisées et intelligentes, tout en répondant aux besoins spécifiques de mes clients.",
+    text: "Passioné par le développement, la cybersécurité et l'IA. Mon objectif est de créer des solutions numériques innovantes, sécurisées et intelligentes, capables d'avoir un impact sur le monde, tout en répondant aux besoins spécifiques de mes clients.",
   },
   {
     id: 2,

@@ -78,7 +78,7 @@ import {
     },
     {
       name: "React JS",
-      icon: "./assets/tech/react.png",
+      icon: "./assets/tech/reactjs.png",
     },
     {
       name: "Three JS",
@@ -131,14 +131,6 @@ import {
     {
       name: "git",
       icon: "./assets/tech/git.png",
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
