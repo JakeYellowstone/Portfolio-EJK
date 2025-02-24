@@ -16,13 +16,13 @@ const Projects = () => {
 
     const handleNavigation = (direction) => {
         setSelectedProjectIndex((prevIndex) => {
-            if(direction == 'previous') {
-                return prevIndex = 0 ? projectCount - 1 : prevIndex -1
-            } else {
-                return prevIndex == projectCount -1 ? 0 : prevIndex +1
-            }
-        })
-    }
+          if (direction == 'previous') {
+            return prevIndex == 0 ? projectCount - 1 : prevIndex - 1;
+          } else {
+            return prevIndex == projectCount - 1 ? 0 : prevIndex + 1;
+          }
+        });
+      };
 
   return (
     <section className='flex min-h-screen'>
