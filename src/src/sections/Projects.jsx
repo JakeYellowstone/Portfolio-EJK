@@ -1,10 +1,15 @@
+/*================== IMPORT REACT ==================*/
 import React, { useState, Suspense} from 'react'
-import { myProjects } from '../constants'
+
+/*================== IMPORT THREE ==================*/
 import { Canvas } from '@react-three/fiber'; 
-import { AmbientLight, DirectionalLight } from 'three';
-import { Center, OrbitControls } from '@react-three/drei'; 
+
+/*================== IMPORT CONSTANTES ==================*/
+import { myProjects } from '../constants'
+
+/*================== IMPORT COMPONANT ==================*/
+import { Center, OrbitControls } from '@react-three/drei';
 import CanvasLoader from '../components/CanvasLoader';
-import DemoComputer from '../components/DemoComputer';
 import Monitor from '../components/Monitor';
 import Phone from '../components/Phone';
 
