@@ -1,39 +1,19 @@
+/*================== IMPORT REACT ==================*/
 import React from 'react'
-import { motion } from "framer-motion";
-import Navbar from './sections/Navbar'
-import Hero from './components/Hero'
-import About from './sections/About'
-import Projects from './sections/Projects'
-import Clients from './sections/Clients'
-import Contact from './sections/Contact'
 
-import Footer from './sections/Footer'
-import Experiences from './sections/Experiences'
+/*================== IMPORT MOTION ==================*/
+import { motion } from "framer-motion";
 import AnimationCards from './sections/AnimationCards';
-import Accueil from './sections/Accueil';
-import Button from './components/Button';
 import FadeScrollSection from './components/FadeScrollSection';
 
-
-import { Canvas } from '@react-three/fiber'; 
-import { Suspense } from 'react';
-import { AmbientLight, DirectionalLight } from 'three';
-import CanvasLoader from './components/CanvasLoader'
-import { useMediaQuery } from 'react-responsive';
-import { calculateSizes } from './constants';
-import PythonLogo from './components/PythonLogo';
-import Ring from './components/Ring';
-import C8Logo from './components/C8Logo';
-import KaliLogo from './components/KaliLogo';
-
-//bg-[#210f47]
+/*================== IMPORT COMPOSANT ==================*/
+import About from './sections/About'
+import Projects from './sections/Projects'
+import Contact from './sections/Contact'
+import Footer from './sections/Footer'
+import Experiences from './sections/Experiences'
 
 const App = () => {
-  const isSmall = useMediaQuery({ maxWidth: 440 });
-  const isMobile = useMediaQuery({ maxWidth: 768 });
-  const isTablet = useMediaQuery({ minWidth : 768, maxWidth : 1024 });
-  
-  const sizes = calculateSizes(isSmall, isMobile, isTablet);
   return (
     <main className='w-full h-screen'>
 

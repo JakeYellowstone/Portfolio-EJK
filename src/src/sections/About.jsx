@@ -1,7 +1,11 @@
+/*================== IMPORT REACT ==================*/
+import { useState, Suspense }  from "react";
+
+/*================== IMPORT MOTION ==================*/
 import { motion } from "framer-motion";
-import { useRef, useState, Suspense }  from "react";
-import Globe from "react-globe.gl";
+
 /*================== IMPORT THREE ==================*/
+import Globe from "react-globe.gl";
 import { Canvas } from '@react-three/fiber'; 
 import { OrbitControls } from '@react-three/drei'; 
 
@@ -13,7 +17,7 @@ const cards = [
   {
     id: 1,
     img: <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />,
-    title: "",
+    title: "C'est moi !",
     text: "Passioné par le développement, la cybersécurité et l'IA. Mon objectif est de créer des solutions numériques innovantes, sécurisées et intelligentes, capables d'avoir un impact sur le monde, tout en répondant aux besoins spécifiques de mes clients.",
   },
   {
@@ -99,8 +103,6 @@ export default function About() {
             </motion.div>
           );
         })}
-
-        {/* Boutons de navigation */}
         <button
           onClick={() => {setCurrentIndex((prevIndex) => (prevIndex - 1 + cards.length) % cards.length)}}
           className="absolute z-10 left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 p-3 rounded-full text-white hover:bg-gray-600 transition"
