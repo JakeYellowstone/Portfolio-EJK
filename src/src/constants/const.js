@@ -73,6 +73,10 @@ import {
       icon: "./assets/tech/javascript.png",
     },
     {
+      name: "Php",
+      icon: "./assets/tech/php.png",
+    },
+    {
       name: "Laravel",
       icon: "./assets/tech/laravel.png",
     },

@@ -153,7 +153,7 @@ export const navLinks = [
       subdesc:
         "Conçu avec Bootstrap, PHP, ce site met en avant les différentes activités du groupe à travers une interface professionnelle et ergonomique, optimisée pour une expérience utilisateur fluide.",
       href: '/textures/project/schiba.mp4',
-      texture: '/textures/project/project3.mp4',
+      texture: '/textures/project/schiba.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -352,7 +352,7 @@ export const navLinks = [
       subdesc:
         "Développée avec Flutter, elle permet aux employés de soumettre des demandes de ravitaillement, suivre leurs consommations et générer des rapports personnalisés. Ce module s’intègre parfaitement avec les autres applications du projet pour une gestion centralisée et efficace.",
       href: '#',
-      texture: '/textures/project/demande.mp4',
+      texture: '/textures/project/format_5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
