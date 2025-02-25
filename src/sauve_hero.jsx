@@ -15,7 +15,6 @@ import Ring from '../components/Ring';
 import HeroCamera from '../components/HeroCamera';
 import C8Logo from '../components/C8Logo';
 import KaliLogo from '../components/KaliLogo';
-import Button from '../components/Button';
 
 const Hero = () => {
 

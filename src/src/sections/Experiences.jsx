@@ -3,9 +3,6 @@ import Academic from '../components/Academic'
 import Tech from '../components/Tech'
 import Profession from '../components/Profession'
 
-
-
-
 const Experiences = () => {
 
   return (

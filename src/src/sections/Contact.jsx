@@ -4,7 +4,6 @@ import StarsCanvas from '../components/canvas/Stars'
 
 const Contact = () => {
 
-
   return (
     <section className='min-h-screen'>
          <div className='relative z-0'>

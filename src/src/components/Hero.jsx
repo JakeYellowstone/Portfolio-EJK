@@ -1,9 +1,7 @@
-import { motion } from "framer-motion";
 import { calculateSizes } from '../constants';
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
 import { useMediaQuery } from "react-responsive";
-import Button from '../components/Button';
 
 const Hero = () => {
 
