@@ -1,11 +1,18 @@
+/*================== IMPORT REACT ==================*/
 import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
 
+/*================== IMPORT MOTION ==================*/
+import { motion } from "framer-motion";
+import { slideIn } from "../utils/motion";
+
+/*================== IMPORT CONSTANTES ==================*/
+import emailjs from "@emailjs/browser";
 import { styles } from "../style";
+
+/*================== IMPORT COMPONENTS ==================*/
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "./hoc";
-import { slideIn } from "../utils/motion";
+
 
 const Contacts = () => {
   const formRef = useRef();
@@ -17,8 +24,6 @@ const Contacts = () => {
       message : '',
     }
   );
-
-  // service_embth4p
 
   const handleChange = ({target : {name, value}}) => {
     setForm({...form, [name] : value})

@@ -1,5 +1,8 @@
+/*================== IMPORT CONSTANTES ==================*/
 import { calculateSizes } from '../constants';
 import { styles } from "../style";
+
+/*================== IMPORT COMPONENTS ==================*/
 import { ComputersCanvas } from "./canvas";
 import { useMediaQuery } from "react-responsive";
 
