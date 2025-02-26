@@ -1,17 +1,21 @@
 
+/*================== IMPORT REACT ==================*/
 import React from "react";
+
+/*================== IMPORT MOTION ==================*/
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
+import { textVariant } from "../utils/motion";
 
+/*================== IMPORT CONSTANTE ==================*/
 import "react-vertical-timeline-component/style.min.css";
-
 import { styles } from "../style";
 import { degrees } from "../constants/const";
 import { SectionWrapper } from "../components/hoc";
-import { textVariant } from "../utils/motion";
+
 
 const ExperienceCard = ({ experience }) => {
   return (
