@@ -7,8 +7,8 @@
       subdesc:
         "Je l'ai réalisé avec Javascript, HTML/CSS3, pour obtenir une plateforme visuellement belle qui attirera les regards des clients. Ce projet offre une interface moderne, intuitive et responsive, permettant aux clients de découvrir les services de l’entreprise.",
       href: 'https://www.locatec-ci.com/',
-      texture: '/textures/project/locat.mp4',
-      logo: '/assets/project-logo3.png',
+      texture: './textures/project/locat.mp4',
+      logo: './assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -16,32 +16,32 @@
         border: '0.2px solid rgba(208, 213, 221, 1)',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
-      spotlight: '/assets/spotlight3.png',
+      spotlight: './assets/spotlight3.png',
       tags: [
         {
           id: 1,
           name: 'HTML 5',
-          path: '/assets/tech/html.png',
+          path: './assets/tech/html.png',
         },
         {
           id: 2,
           name: 'CSS 3',
-          path: '/assets/tech/css.png',
+          path: './assets/tech/css.png',
         },
         {
           id: 3,
           name: 'Javascript',
-          path: '/assets/tech/javascript.png',
+          path: './assets/tech/javascript.png',
         },
         {
           id: 4,
           name: 'Bootstrap',
-          path: '/assets/tech/bootstrap.png',
+          path: './assets/tech/bootstrap.png',
         },
         {
           id: 5,
           name: 'Php',
-          path: '/assets/tech/php.png',
+          path: './assets/tech/php.png',
         },
       ],
     },
@@ -51,8 +51,8 @@
       desc: "J’ai conçu et développé le site web de Soko Corporation, une entreprise spécialisée dans l’innovation technologique, la vente de matériels informatiques et l’intégration de solutions numériques. ",
       subdesc: "Le site web devait avoir un aspect futuristique et numérique, pour permettre de voir l'aspect technologique de l'entreprie. Réalisé avec Laravel, ce projet visait à offrir une plateforme moderne, intuitive et sécurisée, optimisée pour une navigation fluide sur tous les appareils.",
       href: '#',
-      texture: '/textures/project/soko.mp4',
-      logo: '/assets/projet_mobile.png',
+      texture: './textures/project/soko.mp4',
+      logo: './assets/projet_mobile.png',
       logoStyle: {
         backgroundColor: '#2A1816',
         background:
@@ -60,32 +60,32 @@
         border: '0.2px solid #36201D',
         boxShadow: '0px 0px 60px 0px #AA3C304D',
       },
-      spotlight: '/assets/spotlight1.png',
+      spotlight: './assets/spotlight1.png',
       tags: [
         {
           id: 1,
           name: 'HTML 5',
-          path: '/assets/tech/html.png',
+          path: './assets/tech/html.png',
         },
         {
           id: 2,
           name: 'CSS 3',
-          path: '/assets/tech/css.png',
+          path: './assets/tech/css.png',
         },
         {
           id: 3,
           name: 'Javascript',
-          path: '/assets/tech/javascript.png',
+          path: './assets/tech/javascript.png',
         },
         {
           id: 4,
           name: 'Laravel',
-          path: '/assets/tech/laravel.png',
+          path: './assets/tech/laravel.png',
         },
         {
           id: 5,
           name: 'Bootstrap',
-          path: '/assets/tech/bootstrap.png',
+          path: './assets/tech/bootstrap.png',
         },
       ],
     },
@@ -95,9 +95,9 @@
       desc: "J’ai réalisé le site web de Schiba Holding, un groupe ivoirien multisectoriel intervenant dans les domaines du BTP, de l’énergie, de la finance et bien d’autres secteurs stratégiques.",
       subdesc:
         "Conçu avec Bootstrap, PHP, ce site met en avant les différentes activités du groupe à travers une interface professionnelle et ergonomique, optimisée pour une expérience utilisateur fluide.",
-      href: '/textures/project/schiba.mp4',
-      texture: '/textures/project/schiba.mp4',
-      logo: '/assets/project-logo3.png',
+      href: 'https://www.schibaholding.com/',
+      texture: './textures/project/schiba.mp4',
+      logo: './assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -105,32 +105,32 @@
         border: '0.2px solid rgba(208, 213, 221, 1)',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
-      spotlight: '/assets/spotlight3.png',
+      spotlight: './assets/spotlight3.png',
       tags: [
         {
           id: 1,
           name: 'HTML 5',
-          path: '/assets/tech/html.png',
+          path: './assets/tech/html.png',
         },
         {
           id: 2,
           name: 'CSS 3',
-          path: '/assets/tech/css.png',
+          path: './assets/tech/css.png',
         },
         {
           id: 3,
           name: 'Javascript',
-          path: '/assets/tech/javascript.png',
+          path: './assets/tech/javascript.png',
         },
         {
           id: 4,
           name: 'Bootstrap',
-          path: '/assets/tech/bootstrap.png',
+          path: './assets/tech/bootstrap.png',
         },
         {
           id: 5,
           name: 'Php',
-          path: '/assets/tech/php.png',
+          path: './assets/tech/php.png',
         },
       ],
     },
@@ -140,9 +140,9 @@
       desc: "J’ai réalisé le site web de Shiba Energie une filiale du groupe Schiba Holding, qui intervient dans l'énergie, la climatisation etc.",
       subdesc:
         "Conçu avec Bootstrap, PHP, ce site met en avant les différentes activités de l'entreprise à travers une interface professionnelle et ergonomique, optimisée pour une expérience utilisateur fluide.",
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-      texture: '/textures/project/ses.mp4',
-      logo: '/assets/project-logo3.png',
+      href: '#',
+      texture: './textures/project/ses.mp4',
+      logo: './assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -150,32 +150,32 @@
         border: '0.2px solid rgba(208, 213, 221, 1)',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
-      spotlight: '/assets/spotlight3.png',
+      spotlight: './assets/spotlight3.png',
       tags: [
         {
           id: 1,
           name: 'HTML 5',
-          path: '/assets/tech/html.png',
+          path: './assets/tech/html.png',
         },
         {
           id: 2,
           name: 'CSS 3',
-          path: '/assets/tech/css.png',
+          path: './assets/tech/css.png',
         },
         {
           id: 3,
           name: 'Javascript',
-          path: '/assets/tech/javascript.png',
+          path: './assets/tech/javascript.png',
         },
         {
           id: 4,
           name: 'Bootstrap',
-          path: '/assets/tech/bootstrap.png',
+          path: './assets/tech/bootstrap.png',
         },
         {
           id: 5,
           name: 'Php',
-          path: '/assets/tech/php.png',
+          path: './assets/tech/php.png',
         },
       ],
     },
@@ -186,39 +186,39 @@
       subdesc:
         'Développée avec Laravel, Javascript, cette solution offre un suivi détaillé de la consommation de carburant, la gestion des approvisionnements et l’analyse des dépenses, assurant une meilleure transparence et un contrôle efficace des ressources.',
       href: '#',
-      texture: '/textures/project/gest_carb.mp4',
-      logo: '/assets/project-logo4.png',
+      texture: './textures/project/gest_carb.mp4',
+      logo: './assets/project-logo4.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
         border: '0.2px solid #0E2D58',
         boxShadow: '0px 0px 60px 0px #2F67B64D',
       },
-      spotlight: '/assets/spotlight4.png',
+      spotlight: './assets/spotlight4.png',
       tags: [
         {
           id: 1,
           name: 'HTML 5',
-          path: '/assets/tech/html.png',
+          path: './assets/tech/html.png',
         },
         {
           id: 2,
           name: 'CSS 3',
-          path: 'assets/tech/css.png',
+          path: './assets/tech/css.png',
         },
         {
           id: 3,
           name: 'Javascript',
-          path: '/assets/tech/javascript.png',
+          path: './assets/tech/javascript.png',
         },
         {
           id: 4,
           name: 'Bootstrap',
-          path: '/assets/tech/bootstrap.png',
+          path: './assets/tech/bootstrap.png',
         },
         {
           id: 5,
           name: 'Laravel',
-          path: '/assets/tech/laravel.png',
+          path: './assets/tech/laravel.png',
         },
       ],
     },
@@ -229,39 +229,39 @@
       subdesc:
         'Développée avec Laravel, Vue.js, cette plateforme centralise les interactions avec les clients, automatise les devis et facilite la gestion des événements et des réservations, améliorant ainsi la productivité du personnel.',
       href: '#',
-      texture: '/textures/project/palm.mp4',
-      logo: '/assets/project-logo5.png',
+      texture: './textures/project/palm.mp4',
+      logo: './assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
-      spotlight: '/assets/spotlight5.png',
+      spotlight: './assets/spotlight5.png',
       tags: [
         {
           id: 1,
           name: 'HTML 5',
-          path: '/assets/tech/html.png',
+          path: './assets/tech/html.png',
         },
         {
           id: 2,
           name: 'CSS 3',
-          path: 'assets/tech/css.png',
+          path: './assets/tech/css.png',
         },
         {
           id: 3,
           name: 'Javascript',
-          path: '/assets/tech/javascript.png',
+          path: './assets/tech/javascript.png',
         },
         {
           id: 4,
           name: 'Bootstrap',
-          path: '/assets/tech/bootstrap.png',
+          path: './assets/tech/bootstrap.png',
         },
         {
           id: 5,
           name: 'Laravel',
-          path: '/assets/tech/laravel.png',
+          path: './assets/tech/laravel.png',
         },
       ],
     },
@@ -272,19 +272,19 @@
       subdesc:
         "Ce module, conçu avec Flutter, permet aux pompistes de gérer les services en temps réel, d’enregistrer chaque transaction et de générer des rapports détaillés sur les opérations effectuées. Ce projet fait partie d’un système global, comprenant un module web et deux applications mobiles.",
       href: '#',
-      texture: '/textures/project/mob_pomp.mp4',
-      logo: '/assets/project-logo5.png',
+      texture: './textures/project/mob_pomp.mp4',
+      logo: './assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
-      spotlight: '/assets/spotlight1.png',
+      spotlight: './assets/spotlight1.png',
       tags: [
         {
           id: 1,
           name: 'Flutter',
-          path: '/assets/tech/flutter.png',
+          path: './assets/tech/flutter.png',
         },
       ],
     },
@@ -295,19 +295,19 @@
       subdesc:
         "Développée avec Flutter, elle permet aux employés de soumettre des demandes de ravitaillement, suivre leurs consommations et générer des rapports personnalisés. Ce module s’intègre parfaitement avec les autres applications du projet pour une gestion centralisée et efficace.",
       href: '#',
-      texture: '/textures/project/format_5.mp4',
-      logo: '/assets/project-logo5.png',
+      texture: './textures/project/format_5.mp4',
+      logo: './assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
-      spotlight: '/assets/spotlight2.png',
+      spotlight: './assets/spotlight2.png',
       tags: [
         {
           id: 1,
           name: 'Flutter',
-          path: '/assets/tech/flutter.png',
+          path: './assets/tech/flutter.png',
         },
       ],
     },
@@ -318,29 +318,29 @@
       subdesc:
         "Développée avec HTML/CSS et PHP, cette solution offre des fonctionnalités avancées : gestion des emprunts et retours, suivi des disponibilités, inscriptions des lecteurs et génération de rapports statistiques. L’interface intuitive permet une utilisation simple et efficace, aussi bien pour les bibliothécaires que pour les usagers.",
       href: '#',
-      texture: '/textures/project/biblio.mp4',
-      logo: '/assets/project-logo5.png',
+      texture: './textures/project/biblio.mp4',
+      logo: './assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
-      spotlight: '/assets/spotlight3.png',
+      spotlight: './assets/spotlight3.png',
       tags: [
         {
           id: 1,
           name: 'HTML 5',
-          path: '/assets/tech/html.png',
+          path: './assets/tech/html.png',
         },
         {
           id: 2,
           name: 'CSS 3',
-          path: 'assets/tech/css.png',
+          path: './assets/tech/css.png',
         },
         {
           id: 3,
           name: 'Php',
-          path: '/assets/tech/php.png',
+          path: './assets/tech/php.png',
         },
       ],
     },

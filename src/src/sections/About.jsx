@@ -16,13 +16,13 @@ import Moi from '../components/Moi'
 const cards = [
   {
     id: 1,
-    img: <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />,
+    img: <img src="./assets/grid1.png" alt="Kouamé Esdras Jonathan" className="w-full sm:h-[276px] h-fit object-contain" />,
     title: "C'est moi !",
     text: "Passioné par le développement, la cybersécurité et l'IA. Mon objectif est de créer des solutions numériques innovantes, sécurisées et intelligentes, capables d'avoir un impact sur le monde, tout en répondant aux besoins spécifiques de mes clients.",
   },
   {
     id: 2,
-    img: <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />,
+    img: <img src="./assets/grid2.png" alt="Kouamé Esdras Jonathan" className="w-full sm:h-[276px] h-fit object-contain" />,
     title: "Technologies utilisées",
     text: "J'utilise des technologies modernes pour le développement web, mobile, la cybersécurité et l'intelligence artificielle. Mon objectif est de combiner performance, sécurité et intelligence dans chaque projet.",
   },
@@ -54,7 +54,7 @@ const cards = [
   },
   {
     id: 4,
-    img: <img src="/assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />,
+    img: <img src="./assets/grid3.png" alt="Kouamé Esdras Jonathan" className="w-full sm:h-[266px] h-fit object-contain" />,
     title: "Ma passion pour la cybersécurité",
     text: "La cybersécurité et l'intelligence artificielle sont au cœur de ma passion pour la technologie. Je suis constamment à l'affût des dernières tendances et techniques. Pour moi, la cybersécurité et l'IA ne sont pas juste des compétences, ce sont des outils pour modeliser l'avenir.",
   },

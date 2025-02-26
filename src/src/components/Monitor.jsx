@@ -4,9 +4,9 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 
 const Monitor =  (props) => {
-  const { nodes, materials } = useGLTF('/models/monitor_2.glb')
+  const { nodes, materials } = useGLTF('./models/monitor_2.glb')
   const group = useRef()
-  const txt = useVideoTexture(props.texture ? props.texture : '/textures/project/project1.mp4')
+  const txt = useVideoTexture(props.texture ? props.texture : './textures/project/project1.mp4')
   
 
   
@@ -80,6 +80,6 @@ const Monitor =  (props) => {
   )
 }
 
-useGLTF.preload('/models/monitor_2.glb')
+useGLTF.preload('./models/monitor_2.glb')
 
 export default Monitor;

@@ -3,13 +3,13 @@ import { useAnimations, useFBX, useGLTF } from '@react-three/drei'
 
 const Moi = ({animationName = 'salute', ...props}) => {
 
-  const { nodes, materials } = useGLTF('/models/animations/moi.glb')
+  const { nodes, materials } = useGLTF('./models/animations/moi.glb')
   const group = useRef()
 
-  const {animations : attenteAnimation } = useFBX('models/animations/idle.fbx')
-  const {animations : saluerAnimation } = useFBX('models/animations/salute.fbx')
-  const {animations : applaudAnimation } = useFBX('models/animations/clapping.fbx')
-  const {animations : victoireAnimation } = useFBX('models/animations/victory.fbx')
+  const {animations : attenteAnimation } = useFBX('./models/animations/idle.fbx')
+  const {animations : saluerAnimation } = useFBX('./models/animations/salute.fbx')
+  const {animations : applaudAnimation } = useFBX('./models/animations/clapping.fbx')
+  const {animations : victoireAnimation } = useFBX('./models/animations/victory.fbx')
   attenteAnimation[0].name = 'idle';
   saluerAnimation[0].name = 'salute';
   applaudAnimation[0].name = 'clapping';
@@ -91,7 +91,7 @@ const Moi = ({animationName = 'salute', ...props}) => {
   )
 }
 
-useGLTF.preload('/models/animations/moi.glb')
+useGLTF.preload('./models/animations/moi.glb')
 
 
 export default Moi

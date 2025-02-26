@@ -4,9 +4,9 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 
 const Phone =  (props) => {
-  const { nodes, materials } = useGLTF('/models/smartphone.glb')
+  const { nodes, materials } = useGLTF('./models/smartphone.glb')
   const group = useRef()
-  const txt = useVideoTexture(props.texture ? props.texture : '/textures/project/project1.mp4')
+  const txt = useVideoTexture(props.texture ? props.texture : './textures/project/project1.mp4')
 
 
   useGSAP(() => {
@@ -88,6 +88,6 @@ const Phone =  (props) => {
   )
 }
 
-useGLTF.preload('/models/smartphone.glb')
+useGLTF.preload('./models/smartphone.glb')
 
 export default Phone;

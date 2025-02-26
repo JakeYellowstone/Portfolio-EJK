@@ -17,7 +17,7 @@ body {
 
 
 body {
-  background-image: url('./assets/fond32.png'); /* Chemin vers ton image */
+  background-image: url('https://esdras.hebfree.org/PortfolioKEJ/assets/fond32.png'); /* Chemin vers ton image */
   background-size: cover; /* Adapte l’image à l’écran en remplissant tout */
   background-position: center; /* Centre l’image */
   background-repeat: repeat; /* Évite la répétition */
