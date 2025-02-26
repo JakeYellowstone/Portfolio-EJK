@@ -1,10 +1,11 @@
+/*================== IMPORT REACT ==================*/
 import React, { Suspense, useEffect, useState } from "react";
+
+/*================== IMPORT THREE ==================*/
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-import { useMediaQuery } from 'react-responsive';
-import { calculateSizes } from '../../constants';
-
+/*================== IMPORT COMPONENT ==================*/
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
