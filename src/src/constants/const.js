@@ -72,6 +72,10 @@
       icon: "./assets/tech/terraform.png",
     },
     {
+      name: "Docker",
+      icon: "./assets/tech/docker.png",
+    },
+    {
       name: "git",
       icon: "./assets/tech/git.png",
     },
