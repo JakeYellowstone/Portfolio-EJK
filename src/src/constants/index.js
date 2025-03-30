@@ -266,52 +266,6 @@
       ],
     },
     {
-      title: 'Application mobile de gestion de carburant – Module pompiste',
-      type : "mobile",
-      desc: "Dans le cadre de l’optimisation de la gestion du carburant en entreprise, j’ai développé une application mobile destinée aux pompistes.",
-      subdesc:
-        "Ce module, conçu avec Flutter, permet aux pompistes de gérer les services en temps réel, d’enregistrer chaque transaction et de générer des rapports détaillés sur les opérations effectuées. Ce projet fait partie d’un système global, comprenant un module web et deux applications mobiles.",
-      href: '#',
-      texture: './textures/project/mob_pomp.mp4',
-      logo: './assets/project-logo5.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: './assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'Flutter',
-          path: './assets/tech/flutter.png',
-        },
-      ],
-    },
-    {
-      title: 'Application mobile de gestion de carburant – Module demandeur',
-      type : "mobile",
-      desc: "Complétant l’écosystème de gestion de carburant en entreprise, cette application mobile est dédiée aux demandeurs de carburant.",
-      subdesc:
-        "Développée avec Flutter, elle permet aux employés de soumettre des demandes de ravitaillement, suivre leurs consommations et générer des rapports personnalisés. Ce module s’intègre parfaitement avec les autres applications du projet pour une gestion centralisée et efficace.",
-      href: '#',
-      texture: './textures/project/format_5.mp4',
-      logo: './assets/project-logo5.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: './assets/spotlight2.png',
-      tags: [
-        {
-          id: 1,
-          name: 'Flutter',
-          path: './assets/tech/flutter.png',
-        },
-      ],
-    },
-    {
       title: 'BiblioNet – Application web de gestion de bibliothèque',
       type : "web",
       desc: "J’ai conçu et développé BiblioNet, une application web permettant la gestion complète d’une bibliothèque.",

@@ -1,6 +1,5 @@
 /*================== COMPONENT IMPORT ==================*/
 import Academic from '../components/Academic'
-import Tech from '../components/Tech'
 import Profession from '../components/Profession'
 
 const Experiences = () => {
@@ -16,7 +15,6 @@ const Experiences = () => {
                     <div className='sm:py-10 py-5 sm:px-5 px-2.5 flex flex-col overflow-y-auto overflow-hidden'>
                     <Profession />
                     <Academic />
-                    <Tech />
                     </div>
                 </div>
             </div>

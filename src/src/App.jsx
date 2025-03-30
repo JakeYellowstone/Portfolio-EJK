@@ -1,6 +1,3 @@
-/*================== IMPORT REACT ==================*/
-import React from 'react'
-
 /*================== IMPORT MOTION ==================*/
 import { motion } from "framer-motion";
 import AnimationCards from './sections/AnimationCards';
@@ -12,10 +9,13 @@ import Projects from './sections/Projects'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 import Experiences from './sections/Experiences'
+import Preloader from './components/Preloader'
 
 const App = () => {
+
   return (
     <main className='w-full h-screen'>
+      {<Preloader />}
 
       <FadeScrollSection>
         <AnimationCards />  
