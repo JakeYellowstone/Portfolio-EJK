@@ -8,7 +8,7 @@ const Preloader = () => {
     // Simulez un temps de chargement (ou utilisez un vrai chargement de données)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 8000); // 3 secondes pour l'exemple
+    }, 8000); 
 
     return () => clearTimeout(timer); // Nettoyez le timer
   }, []);
@@ -18,7 +18,7 @@ const Preloader = () => {
   return (
     <div className="preloader">
       <div className="logo-container">
-        <img src="./logo.png" alt="Logo" className="logo" />
+        <img src="./logo.png" alt='Kouamé Esdras Jonathan' className="logo" />
       </div>
       <p className="loading-text">Chargement en cours...</p>
     </div>

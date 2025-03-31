@@ -20,12 +20,12 @@ const Hero = () => {
         <section className="relative w-full h-screen flex items-center justify-center">
             <div className={`w-full h-full gap-5 p-10 ${isMobile ? 'relative' : 'grid grid-cols-3'}`}>
                 {/* Partie gauche - Modèle 3D */}
-                <div className={`flex justify-center items-center h-full col-span-1 ${isMobile ? 'absolute inset-0 z-0 opacity-50' : ''}`}>
+                <div className={`flex justify-center items-center h-full col-span-1 ${isMobile ? 'absolute inset-0 z-0 opacity-50 pointer-events-none' : ''}`}>
                     <Canvas>
                         <ambientLight intensity={7} />
                         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
                         <directionalLight position={[10, 10, 10]} intensity={1} />
-                        <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
+                        <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} enableRotate={!isMobile} />
                         <Suspense fallback={<CanvasLoader />}>
                             <Moi position-y={-3} scale={3} />
                         </Suspense>
@@ -33,7 +33,7 @@ const Hero = () => {
                 </div>
                 
                 {/* Partie droite - Texte */}
-                <div className={`flex flex-col justify-center items-start text-left gap-5 sm:p-10 p-5 shadow-2xl shadow-black-200 col-span-2 ${isMobile ? 'relative z-10 justify-center items-start bg-opacity-80 p-5 rounded-lg' : ''}`}>
+                <div className={`flex flex-col justify-center items-start text-left gap-5 sm:p-10 p-5 shadow-2xl shadow-black-200 col-span-2 ${isMobile ? 'relative z-10 justify-center h-screen items-start bg-opacity-80 p-5 rounded-lg' : ''}`}>
                     <div className="flex flex-row items-start gap-5">
                         <div className="flex flex-col justify-center items-center mt-5">
                             <div className="w-5 h-5 rounded-full bg-[#915EFF]" />

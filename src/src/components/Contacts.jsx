@@ -120,7 +120,7 @@ const Contacts = () => {
                       required
                       rows={5}
                       className='field-input mt-2'
-                      placeholder="J'ai un travail pour vous..." 
+                      placeholder="Votre message ici..." 
                     />
                   </label>
 

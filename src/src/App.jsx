@@ -51,6 +51,7 @@ const App = () => {
               }}
               className='w-3 h-3 rounded-full bg-[#915EFF] mb-1'
             />
+           
           </div>
         </a>
       </div>

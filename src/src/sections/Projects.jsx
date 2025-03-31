@@ -27,7 +27,7 @@ const Projects = () => {
                     <div className="absolute top-0 right-0">
                         <img
                             src={currentProject.spotlight}
-                            alt="spotlight"
+                            alt='Kouamé Esdras Jonathan'
                             className="w-full h-96 object-cover rounded-xl"
                         />
                     </div>
@@ -48,7 +48,7 @@ const Projects = () => {
                         <div className="flex items-center gap-3">
                             {currentProject.tags.map((tag, index) => (
                                 <div key={index} className="tech-logo">
-                                    <img src={tag.path} alt={tag.name} />
+                                    <img src={tag.path} alt='Kouamé Esdras Jonathan' />
                                 </div>
                             ))}
                         </div>
@@ -63,7 +63,7 @@ const Projects = () => {
                             <img
                                 src="./assets/arrow-up.png"
                                 className="w-3 h-3"
-                                alt="arrow"
+                                alt='Kouamé Esdras Jonathan'
                             />
                         </a>
                     </div>
@@ -75,7 +75,7 @@ const Projects = () => {
                         >
                             <img
                                 src="./assets/left-arrow.png"
-                                alt="left arrow"
+                                alt='Kouamé Esdras Jonathan'
                                 className="w-4 h-4"
                             />
                         </button>
@@ -86,7 +86,7 @@ const Projects = () => {
                         >
                             <img
                                 src="./assets/right-arrow.png"
-                                alt="right arrow"
+                                alt='Kouamé Esdras Jonathan'
                                 className="w-4 h-4"
                             />
                         </button>
