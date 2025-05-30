@@ -1,118 +1,110 @@
-/*================== IMPORT REACT ==================*/
-import React, { useState, Suspense } from "react";
-
-
-/*================== IMPORT CONSTANTES ==================*/
+import React, { useState } from "react";
 import { myProjects } from "../constants";
 
 const Projects = () => {
-    const projectCount = myProjects.length;
-    const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
-    const currentProject = myProjects[selectedProjectIndex];
+  const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
+  const currentProject = myProjects[selectedProjectIndex];
 
-    const handleNavigation = (direction) => {
-        setSelectedProjectIndex((prevIndex) => {
-            if (direction == "previous") {
-                return prevIndex == 0 ? projectCount - 1 : prevIndex - 1;
-            } else {
-                return prevIndex == projectCount - 1 ? 0 : prevIndex + 1;
-            }
-        });
-    };
+  const handleNavigation = (direction) => {
+    const lastIndex = myProjects.length - 1;
+    if (direction === "previous") {
+      setSelectedProjectIndex((prev) => (prev === 0 ? lastIndex : prev - 1));
+    } else {
+      setSelectedProjectIndex((prev) =>
+        prev === lastIndex ? 0 : prev + 1
+      );
+    }
+  };
 
-    return (
-        <section className="flex min-h-screen">
-            <div className="grid lg:grid-cols-3 grid-cols-1 mx-auto items-center mt-12 gap-5 w-[90%] ">
-                <div className="flex flex-col gap-5 relative bg-[#210f47] sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
-                    <div className="absolute top-0 right-0">
-                        <img
-                            src={currentProject.spotlight}
-                            alt='Kouamé Esdras Jonathan'
-                            className="w-full h-96 object-cover rounded-xl"
-                        />
-                    </div>
+  return (
+    <section className="min-h-screen w-full py-20 flex items-center justify-center">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 w-[90%] max-w-7xl">
+        {/* Left: Details Card */}
+        <div className="bg-[#210f47] rounded-3xl p-8 shadow-xl backdrop-blur-lg border border-white/10 relative transition-all duration-300 ease-in-out">
 
-                    <div className="flex flex-col gap-5 text-white-600 my-5">
-                        <p className="text-white text-2xl font-semibold animatedText">
-                            {currentProject.title}
-                        </p>
-                        <p className="animatedText text-white">
-                            {currentProject.desc}
-                        </p>
-                        <p className="animatedText text-white">
-                            {currentProject.subdesc}
-                        </p>
-                    </div>
+          <div className="text-white space-y-4">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#8e44ad] to-[#3498db] text-transparent bg-clip-text">
+              {currentProject.title}
+            </h2>
 
-                    <div className="flex items-center justify-between flex-wrap gap-5">
-                        <div className="flex items-center gap-3">
-                            {currentProject.tags.map((tag, index) => (
-                                <div key={index} className="tech-logo">
-                                    <img src={tag.path} alt='Kouamé Esdras Jonathan' />
-                                </div>
-                            ))}
-                        </div>
+            <p className="text-sm text-gray-300 leading-relaxed">
+              {currentProject.desc}
+            </p>
 
-                        <a
-                            className="flex items-center gap-2 cursor-pointer text-white-600"
-                            href={currentProject.href}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <p className="text-white">Voir Live du Projet</p>
-                            <img
-                                src="./assets/arrow-up.png"
-                                className="w-3 h-3"
-                                alt='Kouamé Esdras Jonathan'
-                            />
-                        </a>
-                    </div>
+            <p className="text-sm text-gray-400 italic">
+              {currentProject.subdesc}
+            </p>
 
-                    <div className="flex justify-between items-center mt-7">
-                        <button
-                            className="arrow-btn"
-                            onClick={() => handleNavigation("previous")}
-                        >
-                            <img
-                                src="./assets/left-arrow.png"
-                                alt='Kouamé Esdras Jonathan'
-                                className="w-4 h-4"
-                            />
-                        </button>
-
-                        <button
-                            className="arrow-btn"
-                            onClick={() => handleNavigation("next")}
-                        >
-                            <img
-                                src="./assets/right-arrow.png"
-                                alt='Kouamé Esdras Jonathan'
-                                className="w-4 h-4"
-                            />
-                        </button>
-                    </div>
-                </div>
-
-                <div className="border col-span-2 border-blue-300 bg-black-300 rounded-lg md:h-full flex justify-center items-center overflow-hidden">
-                    <video
-                        src={
-                            currentProject.texture ||
-                            "./textures/project/project1.mp4"
-                        }
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        style={{
-                            width: "100%",
-                            height: "100%",
-                            objectFit: "cover",
-                        }}
-                    />
-                </div>
+            <div className="flex flex-wrap gap-3 mt-4">
+              {currentProject.tags.map((tag) => (
+                <img
+                  key={tag.id}
+                  src={tag.path}
+                  alt={tag.name}
+                  title={tag.name}
+                  className="w-8 h-8 object-contain bg-white/10 p-1 rounded-lg"
+                />
+              ))}
             </div>
-        </section>
-    );
+
+            <div className="mt-6 flex justify-between items-center">
+              {currentProject.href !== "#" ? (
+                <a
+                  href={currentProject.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-blue-400 hover:text-blue-300 transition"
+                >
+                  Voir Live du Projet
+                  <img
+                    src="./assets/arrow-up.png"
+                    alt="arrow"
+                    className="w-3 h-3"
+                  />
+                </a>
+              ) : (
+                <div /> // pour garder l'espace
+              )}
+
+              <div className="flex gap-3">
+                <button
+                  onClick={() => handleNavigation("previous")}
+                  className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition"
+                >
+                  <img
+                    src="./assets/left-arrow.png"
+                    alt="Précédent"
+                    className="w-4 h-4"
+                  />
+                </button>
+                <button
+                  onClick={() => handleNavigation("next")}
+                  className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition"
+                >
+                  <img
+                    src="./assets/right-arrow.png"
+                    alt="Suivant"
+                    className="w-4 h-4"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Right: Video Preview */}
+        <div className="rounded-3xl overflow-hidden shadow-2xl border border-white/10 relative bg-[#14121f]">
+          <img
+            src={
+              currentProject.texture || "./textures/project/project1.mp4"
+            }
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute top-0 left-0 w-full h-full bg-black/20 pointer-events-none" />
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default Projects;
