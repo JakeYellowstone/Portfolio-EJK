@@ -98,7 +98,7 @@ export const myProjects = [
             {
                 id: 1,
                 name: "React",
-                path: "./assets/tech/react.png",
+                path: "./assets/tech/reactjs.png",
             },
             {
                 id: 2,
