@@ -62,7 +62,7 @@ export default function About() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   return (
-    <section className="flex min-h-screen items-center justify-center w-full px-4">
+    <section className="flex min-h-screen items-center justify-center  w-full px-4">
       <div className="relative w-full max-w-5xl flex justify-center items-center">
         {cards.map((card, index) => {
           const position = (index - currentIndex + cards.length) % cards.length;

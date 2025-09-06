@@ -17,11 +17,15 @@ body {
 
 
 body {
-  background-image: url('/assets/fond32.png'); /* Chemin vers ton image */
-  background-size: cover; /* Adapte l’image à l’écran en remplissant tout */
-  background-position: center; /* Centre l’image */
-  background-repeat: repeat; /* Évite la répétition */
-  background-attachment: fixed; /* Fixe l’image pour un effet parallax */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1f0630, #190230);
+  background-attachment: fixed; /* Fixe le dégradé pour un effet fluide */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Inter', sans-serif; /* Exemple de typo moderne */
+  color: #fff; /* Texte en blanc par défaut */
 }
 
 
