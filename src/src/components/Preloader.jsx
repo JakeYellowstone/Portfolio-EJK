@@ -5,20 +5,31 @@ const Preloader = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulez un temps de chargement (ou utilisez un vrai chargement de données)
-    const timer = setTimeout(() => {
+    // Quand la page est totalement chargée
+    const handleLoad = () => {
       setIsLoading(false);
-    }, 5000);
+    };
 
-    return () => clearTimeout(timer); // Nettoyez le timer
+    if (document.readyState === "complete") {
+      // Si la page est déjà chargée
+      handleLoad();
+    } else {
+      // Sinon on attend l'événement "load"
+      window.addEventListener("load", handleLoad);
+    }
+
+    // Nettoyage
+    return () => {
+      window.removeEventListener("load", handleLoad);
+    };
   }, []);
 
-  if (!isLoading) return null; // Cachez le preloader une fois le chargement terminé
+  if (!isLoading) return null; // Cache le preloader une fois chargé
 
   return (
     <div className="preloader">
       <div className="logo-container">
-        <img src="./logo.png" alt='Kouamé Esdras Jonathan' className="logo" />
+        <img src="./logo.png" alt="Kouamé Esdras Jonathan" className="logo" />
       </div>
       <p className="loading-text">Chargement en cours...</p>
     </div>
